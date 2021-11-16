@@ -1,0 +1,582 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 15:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../customisation/colors.md:1
+msgid "Changing colors"
+msgstr ""
+
+#: ../../customisation/colors.md:3
+msgid ""
+"Furo allows customising colors to fit your brand's identity, by using CSS"
+" variables. These can be declared directly in [`html_theme_options"
+"`][sphinx-html_theme_options], in your `conf.py`."
+msgstr ""
+
+#: ../../customisation/colors.md:5
+msgid "How light and dark mode work"
+msgstr ""
+
+#: ../../customisation/colors.md:7
+msgid ""
+"Furo is in light mode by default, switching to the dark mode when "
+"requested by the user's browser (through `prefers-color-scheme: dark`)."
+msgstr ""
+
+#: ../../customisation/colors.md:9
+msgid ""
+"As a consequence of this design, the dark mode inherits the variable "
+"definitions from the light mode, only overriding specific values to adapt"
+" the theme. While the mechanism for switching between light/dark mode is "
+"not configurable, the exact CSS variable definitions used in this process"
+" can be configured."
+msgstr ""
+
+#: ../../customisation/colors.md:11
+msgid ""
+"It is possible to use different content for light and dark mode, by "
+"setting `only-dark` and `only-light` classes on the content. This is the "
+"[recommended approach](light-dark-images) for handling images with "
+"backgrounds."
+msgstr ""
+
+#: ../../customisation/colors.md:15
+msgid "Defining overrides for defaults"
+msgstr ""
+
+#: ../../customisation/colors.md:17
+msgid ""
+"Furo allows defining [CSS variables that overrides its default values"
+"](css-variables). The exact variable names to use can be found in Furo's "
+"source code "
+"[here](https://github.com/pradyunsg/furo/tree/main/src/furo/assets/styles/variables)."
+msgstr ""
+
+#: ../../customisation/colors.md:19
+msgid ""
+"This mechanism allows configuring nearly every facet of Furo's design, "
+"including spacing between various items and the colors of nearly every "
+"component."
+msgstr ""
+
+#: ../../customisation/colors.md:21
+msgid "Example"
+msgstr ""
+
+#: ../../customisation/colors.md:1
+msgid ""
+"Changing Furo's blue accent (used for stylising links, sidebar's content "
+"etc) to a purple one:"
+msgstr ""
+
+#: ../../customisation/colors.md:38
+msgid "Code block styling"
+msgstr ""
+
+#: ../../customisation/colors.md:40
+msgid ""
+"Furo does not directly handle highlighting of the code blocks. This is "
+"done by Sphinx, and is configurable using [`pygments_style`][sphinx-"
+"pygments_style] and `pygments_dark_style` in `conf.py`."
+msgstr ""
+
+#: ../../customisation/colors.md:1
+msgid "`pygments_dark_style` is Furo-specific at this time."
+msgstr ""
+
+#: ../../customisation/fonts.md:1
+msgid "Changing fonts"
+msgstr ""
+
+#: ../../customisation/fonts.md:3
+msgid ""
+"Furo makes it fairly straightforward to change the fonts across the "
+"entire page."
+msgstr ""
+
+#: ../../customisation/fonts.md:5
+msgid ""
+"This is done by changing the values of the relevant CSS variables: `font-"
+"stack` (for regular text) and `font-stack--monospace` (for code blocks "
+"and inline code). This can be done using Furo's [mechanism for setting "
+"CSS variables](css-variables) -- specifically by setting them as the "
+"fonts for the light mode (which is inherited by the dark mode)."
+msgstr ""
+
+#: ../../customisation/fonts.md:1
+msgid ""
+"It is strongly recommended to not change the fonts unless there is a "
+"strong reason (such as brand identity) since Furo's default fonts are "
+"carefully selected to look good across all major platforms."
+msgstr ""
+
+#: ../../customisation/index.md:1
+msgid "Customisation"
+msgstr ""
+
+#: ../../customisation/index.md:3
+msgid ""
+"Furo supports customisation of the theme's overall look and feel (through"
+" theme options) as well as a few per-page tweaks."
+msgstr ""
+
+#: ../../customisation/index.md:5
+msgid ""
+"This section serves to guide the user with customising Furo-based "
+"documentation. This page lists all the theme-specific customisations, as "
+"provided by this theme. Other pages in this section provide guidance for "
+"making specific customisations when using Sphinx with Furo."
+msgstr ""
+
+#: ../../customisation/index.md:20
+msgid "Theme options"
+msgstr ""
+
+#: ../../customisation/index.md:22
+msgid ""
+"[`html_theme_options`][sphinx-html_theme_options] in `conf.py` is used "
+"for customisations that affect the entire documentation. This is for "
+"stuff like fonts and colors."
+msgstr ""
+
+#: ../../customisation/index.md:1
+msgid ""
+"Note that only the configuration options listed here are supported (not "
+"the ones inherited from the built-in `basic` Sphinx theme)."
+msgstr ""
+
+#: ../../customisation/index.md:30
+msgid "`light_css_variables`/`dark_css_variables`"
+msgstr ""
+
+#: ../../customisation/index.md:32
+msgid ""
+"Furo makes extensive use of [CSS variables][css-variables]. These can be "
+"overridden by the user and are used for stylizing nearly all elements of "
+"the documentation."
+msgstr ""
+
+#: ../../customisation/index.md:34
+msgid ""
+"Setting `*_css_variables` is the recommended mechanism to override Furo's"
+" default values for these variables."
+msgstr ""
+
+#: ../../customisation/index.md:1
+msgid ""
+"Typos in the `*_css_variables` dictionary are silently ignored, and do "
+"not raise any errors or warnings. Double check that your spellings and "
+"values are correct and valid."
+msgstr ""
+
+#: ../../customisation/index.md:50
+msgid "`sidebar_hide_name`"
+msgstr ""
+
+#: ../../customisation/index.md:52
+msgid ""
+"Controls whether you see the project's name in the sidebar of the "
+"documentation. This is useful when you only want to show your "
+"documentation's logo in the sidebar. The default is `False`."
+msgstr ""
+
+#: ../../customisation/index.md:60
+msgid "`navigation_with_keys`"
+msgstr ""
+
+#: ../../customisation/index.md:62
+msgid ""
+"Controls whether the user can navigate the documentation using the "
+"keyboard’s left and right arrows. The default is `False`."
+msgstr ""
+
+#: ../../customisation/index.md:70
+msgid "`announcement`"
+msgstr ""
+
+#: ../../customisation/index.md:72
+msgid ""
+"Adds a site-wide announcement, to the top of every page when set. This "
+"can contain HTML and is included as-is into the page."
+msgstr ""
+
+#: ../../customisation/index.md:80
+msgid "Page specific tweaks"
+msgstr ""
+
+#: ../../customisation/index.md:82
+msgid ""
+"[File-Wide metadata][sphinx-file-wide-metadata] is used for per-page "
+"customisation, primarily for controlling which UI elements are presented."
+msgstr ""
+
+#: ../../customisation/index.md:84
+msgid "`hide-toc`"
+msgstr ""
+
+#: ../../customisation/index.md:86
+msgid ""
+"The “Contents” sidebar is automatically hidden for any pages that don’t "
+"have any inner headings. It is possible to hide it even when a page has "
+"inner headings, by setting `hide-toc` at the page level. See {doc}`./toc`"
+" for an example."
+msgstr ""
+
+#: ../../customisation/index.md:88
+msgid "Custom CSS files"
+msgstr ""
+
+#: ../../customisation/index.md:90
+msgid ""
+"If you want more control than what is provided by the above theme "
+"options, see {any}`customisation/injecting.md#injecting-code`."
+msgstr ""
+
+#: ../../customisation/injecting.md:1
+msgid "Injecting code"
+msgstr ""
+
+#: ../../customisation/injecting.md:3
+msgid ""
+"Sphinx makes it fairly straightforward to add custom JS/CSS/HTML code to "
+"your pages. Furo supports the mechanisms provided by Sphinx for this."
+msgstr ""
+
+#: ../../customisation/injecting.md:5
+msgid "CSS or JS"
+msgstr ""
+
+#: ../../customisation/injecting.md:7
+msgid ""
+"ReadTheDocs has an excellent explanation on [how to add custom CSS or JS "
+"files][sphinx-custom-css] to Sphinx-based documentation. No point "
+"repeating information in two places. 😄"
+msgstr ""
+
+#: ../../customisation/injecting.md:11
+msgid "HTML"
+msgstr ""
+
+#: ../../customisation/injecting.md:1 ../../customisation/sidebar.md:1
+msgid ""
+"This customisation considered \"unstable\" under Furo's "
+"[stability](stablity) policy."
+msgstr ""
+
+#: ../../customisation/injecting.md:17
+msgid ""
+"This is entirely powered by Sphinx's templating mechanism, which is built"
+" upon {pypi}`Jinja2`."
+msgstr ""
+
+#: ../../customisation/injecting.md:19
+msgid ""
+"The primary way to do this is to override the content of the Furo's "
+"default templates with your own templates, using [`templates_path"
+"`][sphinx-templates_path]. For more information on how to do so, "
+"[Sphinx's templating documentation][templating]."
+msgstr ""
+
+#: ../../customisation/injecting.md:1
+msgid ""
+"The expectation is that users who override Furo's templates would also "
+"carefully consider how their documentation looks across various platforms"
+" (i.e. not take a \"looks OK on my machine\" approach) and would also be "
+"willing to extend Furo's CSS to make their HTML changes work well."
+msgstr ""
+
+#: ../../customisation/landing-page.md:1
+msgid "Changing landing page"
+msgstr ""
+
+#: ../../customisation/landing-page.md:3
+msgid ""
+"It is possible to have a custom landing page in Sphinx documentation. "
+"This is achieved by adding a custom template file for that page and "
+"setting [`html_additional_pages`][additional-pages] in `conf.py`."
+msgstr ""
+
+#: ../../customisation/landing-page.md:1
+msgid ""
+"You'll need to write HTML for the page in `_templates/your-custom-"
+"landing-page.html`, if you use the above example as-is."
+msgstr ""
+
+#: ../../customisation/landing-page.md:16
+msgid ""
+"In case you're curious, this works because Sphinx allows overwriting "
+"existing files when generating the website and processes "
+"`html_additional_pages` _after_ processing the pages normally. These two "
+"behaviours combined mean that we can overwrite the page generated with "
+"the default layout by specifying the same document with a different "
+"template in `html_additional_pages`."
+msgstr ""
+
+#: ../../customisation/logo.md:1
+msgid "Adding a logo"
+msgstr ""
+
+#: ../../customisation/logo.md:3
+msgid ""
+"Logos are a point of recognition and an important part of branding. Furo "
+"supports adding your project's logo at the top of the navigational (left)"
+" sidebar, like most other Sphinx themes."
+msgstr ""
+
+#: ../../customisation/logo.md:5
+msgid "Same logo for light and dark mode"
+msgstr ""
+
+#: ../../customisation/logo.md:7
+msgid ""
+"Furo supports the standard Sphinx mechanism to add your project's logo in"
+" the documentation, using the [`html_logo`][sphinx-html_logo] variable in"
+" `conf.py`."
+msgstr ""
+
+#: ../../customisation/logo.md:13
+msgid "Different logos for light and dark mode"
+msgstr ""
+
+#: ../../customisation/logo.md:15
+msgid ""
+"Furo also supports setting different logos for light and dark mode. This "
+"can be necessary if the project's logo is transparent and does not "
+"maintain sufficient contrast with the background in both modes."
+msgstr ""
+
+#: ../../customisation/logo.md:17
+msgid ""
+"This is done by setting `light_logo` and `dark_logo` in "
+"[`html_theme_options`][sphinx-html_theme_options] in `conf.py`."
+msgstr ""
+
+#: ../../customisation/logo.md:1
+msgid ""
+"The filenames must be relative to the [`html_static_path`][sphinx-"
+"html_static_path] folder. In the above example, that'd be `_static/logo-"
+"light-mode.png` and `_static/logo-dark-mode.png`."
+msgstr ""
+
+#: ../../customisation/logo.md:3
+msgid ""
+"This is different from how `html_logo` works, which copies the given "
+"filename into the correct location automagically."
+msgstr ""
+
+#: ../../customisation/logo.md:33
+msgid "Related Information"
+msgstr ""
+
+#: ../../customisation/logo.md:35
+msgid ""
+"It is also possible to [hide the name of the project in the "
+"sidebar](customisation/index.md#sidebar_hide_name), which might be "
+"desirable if the logo contains the project name."
+msgstr ""
+
+#: ../../customisation/sidebar.md:1
+msgid "Changing sidebar elements"
+msgstr ""
+
+#: ../../customisation/sidebar.md:3
+msgid ""
+"Furo supports customising the elements that show up in the navigational "
+"sidebar (left). This is to provide documentation authors who are willing "
+"to work with HTML/CSS to change and tweak how the sidebar looks."
+msgstr ""
+
+#: ../../customisation/sidebar.md:3
+msgid ""
+"Furo is not designed to accommodate for all potential custom sidebar "
+"designs. It is also possible to get suboptimal results (or even break the"
+" layout!) when overriding the default sidebar."
+msgstr ""
+
+#: ../../customisation/sidebar.md:11
+msgid "Expectations"
+msgstr ""
+
+#: ../../customisation/sidebar.md:13
+msgid ""
+"It is expected that users who override the sidebar would also carefully "
+"consider how their documentation looks across various platforms (i.e. not"
+" take a \"looks OK on my machine\" approach) and would be willing to "
+"override Furo's styles to make it work with their sidebar design."
+msgstr ""
+
+#: ../../customisation/sidebar.md:15
+msgid "Some things to consider when doing this are:"
+msgstr ""
+
+#: ../../customisation/sidebar.md:17
+msgid ""
+"different OSs/browsers handle scrollbars and their widths differently, "
+"with different effects on the layouting"
+msgstr ""
+
+#: ../../customisation/sidebar.md:19
+msgid ""
+"end users can customise the look of their default scrollbars at an OS "
+"level(like overlay, hidden, visible-and-takes-space and maybe more?)"
+msgstr ""
+
+#: ../../customisation/sidebar.md:20
+msgid "different viewport heights will differ across devices"
+msgstr ""
+
+#: ../../customisation/sidebar.md:21
+msgid ""
+"\"user interaction flows\", such as looking for a certain page in the "
+"sidebar or via search."
+msgstr ""
+
+#: ../../customisation/sidebar.md:23
+msgid "Default design"
+msgstr ""
+
+#: ../../customisation/sidebar.md:25
+msgid ""
+"The following code snippet lists the fragments (HTML files from Furo's "
+"theme folder) that are used for the default sidebar design."
+msgstr ""
+
+#: ../../customisation/sidebar.md:1
+msgid ""
+"The scrollable region in the sidebar is determined by `sidebar/scroll-"
+"start.html` and `sidebar/scroll-end.html`. Any elements that fall between"
+" them can be scrolled."
+msgstr ""
+
+#: ../../customisation/sidebar.md:39
+msgid "Making changes"
+msgstr ""
+
+#: ../../customisation/sidebar.md:41
+msgid "There are two main ways to customise Furo's sidebar:"
+msgstr ""
+
+#: ../../customisation/sidebar.md:43
+msgid ""
+"override the content of the default templates with your own templates, "
+"using [`templates_path`][sphinx-templates_path]."
+msgstr ""
+
+#: ../../customisation/sidebar.md:44
+msgid ""
+"change the entire sidebar structure, using [`html_sidebars`][sphinx-"
+"html_sidebars]."
+msgstr ""
+
+#: ../../customisation/sidebar.md:46
+msgid "Using `templates_path`"
+msgstr ""
+
+#: ../../customisation/sidebar.md:48
+msgid ""
+"This is useful when you want to change a specific element of the sidebar."
+" A good example for when you might want to use this: adding a tagline "
+"after your project's name/logo."
+msgstr ""
+
+#: ../../customisation/sidebar.md:50
+msgid ""
+"This is done by setting [`templates_path`][sphinx-templates_path] in the "
+"`conf.py` and correctly adding files within the configured paths."
+msgstr ""
+
+#: ../../customisation/sidebar.md:56
+msgid ""
+"For the above example -- adding a tagline after the name/logo -- you'd "
+"want to add an `_templates/sidebar/brand.html` file, that overrides the "
+"appropriate content. For more information on how to do so, [Sphinx's "
+"templating documentation][templating]."
+msgstr ""
+
+#: ../../customisation/sidebar.md:58
+msgid "Using `html_sidebars`"
+msgstr ""
+
+#: ../../customisation/sidebar.md:60
+msgid ""
+"This is useful when you want to make drastic or major changes to the "
+"design of Furo's sidebar."
+msgstr ""
+
+#: ../../customisation/sidebar.md:62
+msgid ""
+"As an example, to make the _entire_ sidebar scrollable, it is possible to"
+" set `sidebar/scroll-start.html` as the first fragment and `sidebar"
+"/scroll-end.html` as the last fragment."
+msgstr ""
+
+#: ../../customisation/sidebar.md:1
+msgid ""
+"`sidebar/scroll-start.html` and `sidebar/scroll-end.html` must be "
+"included in the sidebar. Ensure that the \"non-scrollable\" elements "
+"(i.e. that don't occur between these two) do not go beyond the height of "
+"the viewport."
+msgstr ""
+
+#: ../../customisation/sidebar.md:1
+msgid ""
+"If you're hosting your documentation on ReadTheDocs, please make sure "
+"that `sidebar/ethical-ads.html` is included in the sidebar. This helps "
+"keep ReadTheDocs sustainable."
+msgstr ""
+
+#: ../../customisation/sidebar-title.md:1
+msgid "Changing sidebar title"
+msgstr ""
+
+#: ../../customisation/sidebar-title.md:3
+msgid ""
+"It is possible to have a custom sidebar title in the Sphinx "
+"documentation. This is achieved by adding a variable to the `conf.py` "
+"file:"
+msgstr ""
+
+#: ../../customisation/sidebar-title.md:10
+msgid ""
+"If `html_title` is used, then it overwrites the default sidebar title "
+"text that is:"
+msgstr ""
+
+#: ../../customisation/sidebar-title.md:16
+msgid ""
+"where `project` and `release` are variables with the same name in the "
+"`conf.py` file. If `release` is not specified, it will be omitted from "
+"the title."
+msgstr ""
+
+#: ../../customisation/toc.md:1
+msgid "Hiding Contents sidebar"
+msgstr ""
+
+#: ../../customisation/toc.md:3
+msgid ""
+"Furo supports hiding the \"Contents\" sidebar (right), and does so "
+"automatically for any pages that don't have any inner headings."
+msgstr ""
+
+#: ../../customisation/toc.md:5
+msgid ""
+"To explicitly hide it on a specific page, `hide-toc` can be set in the "
+"[File-Wide metadata][sphinx-file-wide-metadata] for that page."
+msgstr ""
+

@@ -1,0 +1,1344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 15:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../reference/admonitions.md:1
+msgid "Admonitions"
+msgstr ""
+
+#: ../../reference/admonitions.md:3
+msgid ""
+"Admonitions are a great way to include side content, without "
+"significantly interrupting the document flow. Sphinx provides several "
+"different types of admonitions and allows for the inclusion and nesting "
+"of arbitrary content."
+msgstr ""
+
+#: ../../reference/admonitions.md:5 ../../reference/images.md:5
+msgid "Basic Usage"
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:17
+msgid "This is what the most basic admonitions look like."
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:21
+msgid "It is *possible* to have multiple paragraphs in the same admonition."
+msgstr ""
+
+#: ../../reference/admonitions.md:3 ../../reference/admonitions.md:23
+msgid "If you really want, you can even have lists, or code, or tables."
+msgstr ""
+
+#: ../../reference/admonitions.md:20 ../../reference/admonitions.md:26
+#: ../../reference/images.md:12 ../../reference/images.md:16
+#: ../../reference/images.md:28
+msgid "This is from reStructuredText."
+msgstr ""
+
+#: ../../reference/admonitions.md:17 ../../reference/admonitions.md:23
+#: ../../reference/images.md:9 ../../reference/images.md:13
+#: ../../reference/images.md:25
+msgid "This is from Markdown."
+msgstr ""
+
+#: ../../reference/admonitions.md:33
+msgid "Custom Titles"
+msgstr ""
+
+#: ../../reference/admonitions.md:13 ../../reference/admonitions.md:16
+msgid "Look ma! A custom title."
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:18
+msgid "It looks different though."
+msgstr ""
+
+#: ../../reference/admonitions.md:17 ../../reference/admonitions.md:21
+msgid "Another Custom Title"
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:24
+msgid "Maaa! I made it look the same by setting the class."
+msgstr ""
+
+#: ../../reference/admonitions.md:60
+msgid "Supported types"
+msgstr ""
+
+#: ../../reference/admonitions.md:62
+msgid "`admonition`"
+msgstr ""
+
+#: ../../reference/admonitions.md:64
+msgid "The one with the custom titles."
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "It's got a certain charm to it."
+msgstr ""
+
+#: ../../reference/admonitions.md:68
+msgid "`attention`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Climate change is real."
+msgstr ""
+
+#: ../../reference/admonitions.md:74
+msgid "`caution`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Cliff ahead: Don't drive off it."
+msgstr ""
+
+#: ../../reference/admonitions.md:80
+msgid "`danger`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Mad scientist at work!"
+msgstr ""
+
+#: ../../reference/admonitions.md:86
+msgid "`error`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Does not compute."
+msgstr ""
+
+#: ../../reference/admonitions.md:92
+msgid "`hint`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Insulators insulate, until they are subject to ______ voltage."
+msgstr ""
+
+#: ../../reference/admonitions.md:98
+msgid "`important`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Tech is not neutral, nor is it apolitical."
+msgstr ""
+
+#: ../../reference/admonitions.md:104
+msgid "`note`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "This is a note."
+msgstr ""
+
+#: ../../reference/admonitions.md:110
+msgid "`seealso`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Other relevant information."
+msgstr ""
+
+#: ../../reference/admonitions.md:116
+msgid "`tip`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+#, python-format
+msgid "25% if the service is good."
+msgstr ""
+
+#: ../../reference/admonitions.md:122
+msgid "`todo`"
+msgstr ""
+
+#: ../../reference/admonitions.md:124
+msgid "This needs the `sphinx.ext.todo` extension."
+msgstr ""
+
+#: ../../reference/admonitions.md:125
+msgid "待处理"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid ""
+"Figure out why this extension uses `admonition-todo` as the class, "
+"instead of using `todo` (like every other admonition style in Sphinx)."
+msgstr ""
+
+#: ../../reference/admonitions.md:129
+msgid "`warning`"
+msgstr ""
+
+#: ../../reference/admonitions.md:1
+msgid "Reader discretion is strongly advised."
+msgstr ""
+
+#: ../../reference/admonitions.md:135
+msgid "Nesting admonitions"
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:24
+msgid "You can nest admonitions."
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:28
+msgid "But you really should not."
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:32
+msgid "It's distracting."
+msgstr ""
+
+#: ../../reference/admonitions.md:7 ../../reference/admonitions.md:34
+msgid "And can be confusing for the user to understand."
+msgstr ""
+
+#: ../../reference/admonitions.md:13 ../../reference/admonitions.md:36
+msgid "And, honestly, looks weird."
+msgstr ""
+
+#: ../../reference/admonitions.md:175
+msgid "Custom Admonitions"
+msgstr ""
+
+#: ../../reference/admonitions.md:177
+msgid ""
+"It is possible to define custom admonitions for use with Furo. This is "
+"done by [including custom CSS](../customisation/injecting.md) in the "
+"site."
+msgstr ""
+
+#: ../../reference/admonitions.md:180
+msgid ""
+"Borrowing from the [equivalent example for mkdocs-material][mkdocs-"
+"custom], the CSS would be something like:"
+msgstr ""
+
+#: ../../reference/admonitions.md:201
+msgid ""
+"With this, you can now use this by setting the `:class: pied-piper` on an"
+" admonition:"
+msgstr ""
+
+#: ../../reference/admonitions.md:11 ../../reference/admonitions.md:14
+msgid "Pied Piper"
+msgstr ""
+
+#: ../../reference/admonitions.md:1 ../../reference/admonitions.md:17
+msgid "This is neat, right?"
+msgstr ""
+
+#: ../../reference/api.md:1
+msgid "API documentation"
+msgstr ""
+
+#: ../../reference/api.md:3
+msgid ""
+"API documentation serves as an important reference in technical "
+"documentation. Sphinx provides many approaches to writing API "
+"documentation, from writing them manually as well as automatically "
+"generating it from docstrings in your code."
+msgstr ""
+
+#: ../../reference/api.md:5
+msgid ""
+"This example uses {any}`sphinx.ext.autodoc` for generating the API "
+"documentation skeleton. {any}`sphinx.ext.intersphinx` provides links for "
+"classes in type annotations."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:1
+msgid "Retry configuration."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:3
+msgid ""
+"Each retry attempt will create a new Retry object with updated values, so"
+" they can be safely reused."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:6
+msgid "Retries can be defined as a default for a pool::"
+msgstr ""
+
+#: of urllib3.util.retry.Retry:12
+msgid "Or per-request (which overrides the default for the pool)::"
+msgstr ""
+
+#: of urllib3.util.retry.Retry:16
+msgid "Retries can be disabled by passing ``False``::"
+msgstr ""
+
+#: of urllib3.util.retry.Retry:20
+msgid ""
+"Errors will be wrapped in :class:`~urllib3.exceptions.MaxRetryError` "
+"unless retries are disabled, in which case the causing exception will be "
+"raised."
+msgstr ""
+
+#: of urllib3.util.retry.Retry urllib3.util.retry.Retry.increment
+#: urllib3.util.timeout.Timeout urllib3.util.timeout.Timeout.from_float
+msgid "参数"
+msgstr ""
+
+#: of urllib3.util.retry.Retry:23
+msgid ""
+"Total number of retries to allow. Takes precedence over other counts.  "
+"Set to ``None`` to remove this constraint and fall back on other counts."
+"  Set to ``0`` to fail on the first retry.  Set to ``False`` to disable "
+"and imply ``raise_on_redirect=False``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:24
+msgid "Total number of retries to allow. Takes precedence over other counts."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:26
+msgid "Set to ``None`` to remove this constraint and fall back on other counts."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:29
+msgid "Set to ``0`` to fail on the first retry."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:31 urllib3.util.retry.Retry:58
+msgid "Set to ``False`` to disable and imply ``raise_on_redirect=False``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:33
+msgid ""
+"How many connection-related errors to retry on.  These are errors raised "
+"before the request is sent to the remote server, which we assume has not "
+"triggered the server to process the request.  Set to ``0`` to fail on the"
+" first retry of this type."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:34
+msgid "How many connection-related errors to retry on."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:36
+msgid ""
+"These are errors raised before the request is sent to the remote server, "
+"which we assume has not triggered the server to process the request."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:39 urllib3.util.retry.Retry:47
+#: urllib3.util.retry.Retry:56 urllib3.util.retry.Retry:66
+#: urllib3.util.retry.Retry:75
+msgid "Set to ``0`` to fail on the first retry of this type."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:41
+msgid ""
+"How many times to retry on read errors.  These errors are raised after "
+"the request was sent to the server, so the request may have side-effects."
+"  Set to ``0`` to fail on the first retry of this type."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:42
+msgid "How many times to retry on read errors."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:44
+msgid ""
+"These errors are raised after the request was sent to the server, so the "
+"request may have side-effects."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:49
+msgid ""
+"How many redirects to perform. Limit this to avoid infinite redirect "
+"loops.  A redirect is a HTTP response with a status code 301, 302, 303, "
+"307 or 308.  Set to ``0`` to fail on the first retry of this type.  Set "
+"to ``False`` to disable and imply ``raise_on_redirect=False``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:50
+msgid ""
+"How many redirects to perform. Limit this to avoid infinite redirect "
+"loops."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:53
+msgid ""
+"A redirect is a HTTP response with a status code 301, 302, 303, 307 or "
+"308."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:60
+msgid ""
+"How many times to retry on bad status codes.  These are retries made on "
+"responses, where status code matches ``status_forcelist``.  Set to ``0`` "
+"to fail on the first retry of this type."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:61
+msgid "How many times to retry on bad status codes."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:63
+msgid ""
+"These are retries made on responses, where status code matches "
+"``status_forcelist``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:68
+msgid ""
+"How many times to retry on other errors.  Other errors are errors that "
+"are not connect, read, redirect or status errors. These errors might be "
+"raised after the request was sent to the server, so the request might "
+"have side-effects.  Set to ``0`` to fail on the first retry of this type."
+"  If ``total`` is not set, it's a good idea to set this to 0 to account "
+"for unexpected edge cases and avoid infinite retry loops."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:69
+msgid "How many times to retry on other errors."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:71
+msgid ""
+"Other errors are errors that are not connect, read, redirect or status "
+"errors. These errors might be raised after the request was sent to the "
+"server, so the request might have side-effects."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:77
+msgid ""
+"If ``total`` is not set, it's a good idea to set this to 0 to account for"
+" unexpected edge cases and avoid infinite retry loops."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:80
+msgid ""
+"Set of uppercased HTTP method verbs that we should retry on.  By default,"
+" we only retry on methods which are considered to be idempotent (multiple"
+" requests with the same parameters end with the same state). See "
+":attr:`Retry.DEFAULT_ALLOWED_METHODS`.  Set to a ``False`` value to retry"
+" on any verb.  .. warning::      Previously this parameter was named "
+"``method_whitelist``, that     usage is deprecated in v1.26.0 and will be"
+" removed in v2.0."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:81
+msgid "Set of uppercased HTTP method verbs that we should retry on."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:83
+msgid ""
+"By default, we only retry on methods which are considered to be "
+"idempotent (multiple requests with the same parameters end with the same "
+"state). See :attr:`Retry.DEFAULT_ALLOWED_METHODS`."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:87
+msgid "Set to a ``False`` value to retry on any verb."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:91
+msgid ""
+"Previously this parameter was named ``method_whitelist``, that usage is "
+"deprecated in v1.26.0 and will be removed in v2.0."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:94
+msgid ""
+"A set of integer HTTP status codes that we should force a retry on. A "
+"retry is initiated if the request method is in ``allowed_methods`` and "
+"the response status code is in ``status_forcelist``.  By default, this is"
+" disabled with ``None``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:95
+msgid ""
+"A set of integer HTTP status codes that we should force a retry on. A "
+"retry is initiated if the request method is in ``allowed_methods`` and "
+"the response status code is in ``status_forcelist``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:99
+msgid "By default, this is disabled with ``None``."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:101
+msgid ""
+"A backoff factor to apply between attempts after the second try (most "
+"errors are resolved immediately by a second try without a delay). urllib3"
+" will sleep for::      {backoff factor} * (2 ** ({number of total "
+"retries} - 1))  seconds. If the backoff_factor is 0.1, then "
+":func:`.sleep` will sleep for [0.0s, 0.2s, 0.4s, ...] between retries. It"
+" will never be longer than :attr:`Retry.BACKOFF_MAX`.  By default, "
+"backoff is disabled (set to 0)."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:102
+msgid ""
+"A backoff factor to apply between attempts after the second try (most "
+"errors are resolved immediately by a second try without a delay). urllib3"
+" will sleep for::"
+msgstr ""
+
+#: of urllib3.util.retry.Retry:108
+msgid ""
+"seconds. If the backoff_factor is 0.1, then :func:`.sleep` will sleep for"
+" [0.0s, 0.2s, 0.4s, ...] between retries. It will never be longer than "
+":attr:`Retry.BACKOFF_MAX`."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:112
+msgid "By default, backoff is disabled (set to 0)."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:114
+msgid ""
+"Whether, if the number of redirects is exhausted, to raise a "
+"MaxRetryError, or to return a response with a response code in the 3xx "
+"range."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:118
+msgid ""
+"Similar meaning to ``raise_on_redirect``: whether we should raise an "
+"exception, or return a response, if status falls in ``status_forcelist`` "
+"range and retries have been exhausted."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:123
+msgid ""
+"The history of the request encountered during each call to "
+":meth:`~Retry.increment`. The list is in the order the requests occurred."
+" Each list item is of class :class:`RequestHistory`."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:127
+msgid ""
+"Whether to respect Retry-After header on status codes defined as "
+":attr:`Retry.RETRY_AFTER_STATUS_CODES` or not."
+msgstr ""
+
+#: of urllib3.util.retry.Retry:131
+msgid ""
+"Sequence of headers to remove from the request when a response indicating"
+" a redirect is returned before firing off the redirected request."
+msgstr ""
+
+#: ../../docstring of urllib3.util.Retry.BACKOFF_MAX:1
+msgid "Maximum backoff time."
+msgstr ""
+
+#: ../../docstring of urllib3.util.Retry.DEFAULT_ALLOWED_METHODS:1
+msgid "Default methods to be used for ``allowed_methods``"
+msgstr ""
+
+#: ../../docstring of urllib3.util.Retry.DEFAULT_REMOVE_HEADERS_ON_REDIRECT:1
+msgid "Default headers to be used for ``remove_headers_on_redirect``"
+msgstr ""
+
+#: ../../docstring of urllib3.util.Retry.RETRY_AFTER_STATUS_CODES:1
+msgid "Default status codes to be used for ``status_forcelist``"
+msgstr ""
+
+#: of urllib3.util.retry.Retry.from_int:1
+msgid "Backwards-compatibility for the old retries format."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.get_backoff_time:1
+msgid "Formula for computing the current backoff"
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout urllib3.util.Timeout.read_timeout
+#: urllib3.util.retry.Retry.get_backoff_time urllib3.util.timeout.Timeout.clone
+#: urllib3.util.timeout.Timeout.from_float
+#: urllib3.util.timeout.Timeout.get_connect_duration
+msgid "返回类型"
+msgstr ""
+
+#: of urllib3.util.retry.Retry.get_retry_after:1
+msgid "Get the value of Retry-After in seconds."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.increment:1
+msgid "Return a new Retry object with incremented retry counters."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.increment:3
+msgid "A response object, or None, if the server did not return a response."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.increment:6
+msgid ""
+"An error encountered during the request, or None if the response was "
+"received successfully."
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout urllib3.util.Timeout.read_timeout
+#: urllib3.util.retry.Retry.increment urllib3.util.timeout.Timeout.clone
+#: urllib3.util.timeout.Timeout.from_float
+#: urllib3.util.timeout.Timeout.get_connect_duration
+msgid "返回"
+msgstr ""
+
+#: of urllib3.util.retry.Retry.increment:9
+msgid "A new ``Retry`` object."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.is_exhausted:1
+msgid "Are we out of retries?"
+msgstr ""
+
+#: of urllib3.util.retry.Retry.is_retry:1
+msgid ""
+"Is this method/status code retryable? (Based on allowlists and control "
+"variables such as the number of total retries to allow, whether to "
+"respect the Retry-After header, whether this header is present, and "
+"whether the returned status code is on the list of status codes to be "
+"retried upon on the presence of the aforementioned header)"
+msgstr ""
+
+#: of urllib3.util.retry.Retry.sleep:1
+msgid "Sleep between retry attempts."
+msgstr ""
+
+#: of urllib3.util.retry.Retry.sleep:3
+msgid ""
+"This method will respect a server's ``Retry-After`` response header and "
+"sleep the duration of the time requested. If that is not present, it will"
+" use an exponential backoff. By default, the backoff factor is 0 and this"
+" method will return immediately."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:1
+msgid "Timeout configuration."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:3
+msgid "Timeouts can be defined as a default for a pool:"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:11
+msgid "Or per-request (which overrides the default for the pool):"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:17
+msgid "Timeouts can be disabled by setting all the parameters to ``None``:"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:25
+msgid ""
+"This combines the connect and read timeouts into one; the read timeout "
+"will be set to the time leftover from the connect attempt. In the event "
+"that both a connect timeout and a total are specified, or a read timeout "
+"and a total are specified, the shorter timeout will be applied.  Defaults"
+" to None."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:26
+msgid ""
+"This combines the connect and read timeouts into one; the read timeout "
+"will be set to the time leftover from the connect attempt. In the event "
+"that both a connect timeout and a total are specified, or a read timeout "
+"and a total are specified, the shorter timeout will be applied."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:31
+msgid "Defaults to None."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:35
+msgid ""
+"The maximum amount of time (in seconds) to wait for a connection attempt "
+"to a server to succeed. Omitting the parameter will default the connect "
+"timeout to the system default, probably `the global default timeout in "
+"socket.py "
+"<http://hg.python.org/cpython/file/603b4d593758/Lib/socket.py#l535>`_. "
+"None will set an infinite timeout for connection attempts."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:45 urllib3.util.timeout.Timeout:46
+msgid ""
+"The maximum amount of time (in seconds) to wait between consecutive read "
+"operations for a response from the server. Omitting the parameter will "
+"default the read timeout to the system default, probably `the global "
+"default timeout in socket.py "
+"<http://hg.python.org/cpython/file/603b4d593758/Lib/socket.py#l535>`_. "
+"None will set an infinite timeout."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:57
+msgid ""
+"Many factors can affect the total amount of time for urllib3 to return an"
+" HTTP response."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:60
+msgid ""
+"For example, Python's DNS resolver does not obey the timeout specified on"
+" the socket. Other factors that can affect total request time include "
+"high CPU load, high swap, the program running at a low priority level, or"
+" other behaviors."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:65
+msgid ""
+"In addition, the read and total timeouts only measure the time between "
+"read operations on the socket connecting the client and the server, not "
+"the total amount of time for the request to return a complete response. "
+"For most requests, the timeout is raised because the server has not sent "
+"the first byte in the specified time. This is not always the case; if a "
+"server streams one byte every fifteen seconds, a timeout of 20 seconds "
+"will not trigger, even though the request will take several minutes to "
+"complete."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout:74
+msgid ""
+"If your goal is to cut off any request after a set amount of wall clock "
+"time, consider having a second \"watcher\" thread to cut off a slow "
+"request."
+msgstr ""
+
+#: ../../docstring of urllib3.util.Timeout.DEFAULT_TIMEOUT:1
+msgid "A sentinel object representing the default timeout value"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.clone:1
+msgid "Create a copy of the timeout object"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.clone:3
+msgid ""
+"Timeout properties are stored per-pool but each request needs a fresh "
+"Timeout object to ensure each one has its own start/stop configured."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.clone:6
+msgid "a copy of the timeout object"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.clone:7
+#: urllib3.util.timeout.Timeout.from_float:11
+msgid ":class:`Timeout`"
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout:1
+msgid "Get the value to use when setting a connection timeout."
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout:3
+msgid ""
+"This will be a positive float or integer, the value None (never timeout),"
+" or the default system timeout."
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout:6
+msgid "Connect timeout."
+msgstr ""
+
+#: of urllib3.util.Timeout.connect_timeout:7
+#: urllib3.util.Timeout.read_timeout:12
+msgid "int, float, :attr:`Timeout.DEFAULT_TIMEOUT` or None"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.from_float:1
+msgid "Create a new Timeout from a legacy timeout value."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.from_float:3
+msgid ""
+"The timeout value used by httplib.py sets the same timeout on the "
+"connect(), and recv() socket requests. This creates a :class:`Timeout` "
+"object that sets the individual timeouts to the ``timeout`` value passed "
+"to this function."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.from_float:8
+msgid "The legacy timeout value."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.from_float:10
+msgid "Timeout object"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.get_connect_duration:1
+msgid "Gets the time elapsed since the call to :meth:`start_connect`."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.get_connect_duration:3
+msgid "Elapsed time in seconds."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout
+#: urllib3.util.timeout.Timeout.get_connect_duration
+#: urllib3.util.timeout.Timeout.start_connect
+msgid "引发"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.get_connect_duration:5
+msgid "if you attempt to get duration for a timer that hasn't been started."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout:1
+msgid "Get the value for the read timeout."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout:3
+msgid ""
+"This assumes some time has elapsed in the connection timeout and computes"
+" the read timeout appropriately."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout:6
+msgid ""
+"If self.total is set, the read timeout is dependent on the amount of time"
+" taken by the connect timeout. If the connection time has not been "
+"established, a :exc:`~urllib3.exceptions.TimeoutStateError` will be "
+"raised."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout:11
+msgid "Value to use for the read timeout."
+msgstr ""
+
+#: of urllib3.util.Timeout.read_timeout:13
+msgid "If :meth:`start_connect` has not yet been called on this object."
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.start_connect:1
+msgid "Start the timeout clock, used during a connect() attempt"
+msgstr ""
+
+#: of urllib3.util.timeout.Timeout.start_connect:3
+msgid "if you attempt to start a timer that has been started already."
+msgstr ""
+
+#: ../../reference/api.md:24
+msgid "This is a small example from reStructuredText."
+msgstr ""
+
+#: ../../reference/api.md:25
+msgid "This is a small example from Markdown."
+msgstr ""
+
+#: ../../reference/code-blocks.md:1
+msgid "Code Blocks"
+msgstr ""
+
+#: ../../reference/code-blocks.md:3
+msgid ""
+"Code blocks and examples are an essential part of technical project "
+"documentation. Sphinx provides syntax highlighting for these out-of-the-"
+"box, through Pygments."
+msgstr ""
+
+#: ../../reference/code-blocks.md:28
+msgid "Code blocks in reStructuredText can be created in various ways::"
+msgstr ""
+
+#: ../../reference/code-blocks.md:47
+msgid ""
+"There's a lot more forms of \"blocks\" in reStructuredText that can be "
+"used, as seen in "
+"https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
+"#literal-blocks."
+msgstr ""
+
+#: ../../reference/code-blocks.md:25
+msgid "Code blocks in Markdown can be created in various ways."
+msgstr ""
+
+#: ../../reference/code-blocks.md:44
+msgid ""
+"There's a lot of power hidden underneath the triple backticks in MyST "
+"Markdown, as seen in <https://myst-"
+"parser.readthedocs.io/en/latest/using/intro.html#block-level-directives-"
+"with-myst-markdown>."
+msgstr ""
+
+#: ../../reference/hyperlinks.md:1
+msgid "Hyperlinks"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:3
+msgid ""
+"Hyperlinks are extremely useful for connecting related topics without "
+"having to depart from a clear linear exposition. Sphinx supports various "
+"formats for creating hyperlinks, with {any}`sphinx.ext.intersphinx` being"
+" a great tool for cross-documentation hyperlinks."
+msgstr ""
+
+#: ../../reference/hyperlinks.md:13 ../../reference/hyperlinks.md:16
+msgid "Hyperlinks can take various forms, so here's a list of them:"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:18
+msgid "standalone hyperlink: https://python.org/"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:19
+msgid "hyperlink using references: `link <link>`_"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:20
+msgid "hyperlink with inline URL: `link <https://python.org/>`_"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:21
+msgid "hyperlink to a different page: :doc:`link <../quickstart>`"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:22
+msgid "hyperlink to a specific API element: :class:`pathlib.Path`"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:15
+msgid "standalone hyperlink: <https://python.org/>"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:16
+msgid "hyperlink using references: [link][markdown-external-hyperlink]"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:17
+msgid "hyperlink with inline URL: [link](https://python.org/)"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:18
+msgid "hyperlink to a different page: [link](../quickstart)"
+msgstr ""
+
+#: ../../reference/hyperlinks.md:19
+msgid "hyperlink to a specific API element: {class}`pathlib.Path`"
+msgstr ""
+
+#: ../../reference/images.md:1
+msgid "Images"
+msgstr ""
+
+#: ../../reference/images.md:3
+msgid ""
+"Images can be a great supplement to technical documentation text. Sphinx "
+"provides control for their alignment in the content, as well as the "
+"ability to add captions."
+msgstr ""
+
+#: ../../reference/images.md:7
+msgid "![](https://source.unsplash.com/200x200/daily?cute+animals)"
+msgstr ""
+
+#: ../../reference/images.md:19
+msgid "Alignment"
+msgstr ""
+
+#: ../../reference/images.md:37
+msgid "Captions"
+msgstr ""
+
+#: ../../reference/images.md:1 ../../reference/images.md:14
+msgid "This is a captioned image, which needs the \"figure\" directive."
+msgstr ""
+
+#: ../../reference/images.md:58
+msgid "Different images for dark/light mode"
+msgstr ""
+
+#: ../../reference/images.md:60
+msgid ""
+"Furo supports [light mode and dark mode](../customisation/colors) colours"
+" out-of-the-box. However, certain images do not work well against certain"
+" backgrounds (eg: if the image has a white background)."
+msgstr ""
+
+#: ../../reference/images.md:64
+msgid ""
+"You can use the `only-light` and `only-dark` classes, to show different "
+"images based on the currently active colour scheme."
+msgstr ""
+
+#: ../../reference/index.md:1
+msgid "Reference"
+msgstr ""
+
+#: ../../reference/index.md:3
+msgid ""
+"Furo supports everything you can do with standard Sphinx, as well as few "
+"recommended third-party Sphinx extensions."
+msgstr ""
+
+#: ../../reference/index.md:5
+msgid ""
+"This section serves as a showcase for how things look in Furo, and "
+"provides a syntax reference for both [reStructuredText] and [Markdown "
+"(MyST)][myst-markdown]."
+msgstr ""
+
+#: ../../reference/lists.md:1
+msgid "Lists"
+msgstr ""
+
+#: ../../reference/lists.md:3
+msgid ""
+"Lists are useful because they emphasize certain information in regular "
+"text. They can able be used to enumerate or provide an easier reference. "
+"Sphinx allows for various forms of lists, each of which can be used in a "
+"different manner."
+msgstr ""
+
+#: ../../reference/lists.md:5
+msgid "Bullet Lists"
+msgstr ""
+
+#: ../../reference/lists.md:18
+msgid "Bullet lists in reStructuredText are fairly straightforward."
+msgstr ""
+
+#: ../../reference/lists.md:14 ../../reference/lists.md:19
+msgid "A bunch of bullet points."
+msgstr ""
+
+#: ../../reference/lists.md:21
+msgid "Nested bullets should be indented by **exactly** two spaces."
+msgstr ""
+
+#: ../../reference/lists.md:22
+msgid ""
+"They also need a blank line before and after them, otherwise it doesn't "
+"work right."
+msgstr ""
+
+#: ../../reference/lists.md:18 ../../reference/lists.md:25
+msgid "It is also possible to have multiple paragraphs in a bullet."
+msgstr ""
+
+#: ../../reference/lists.md:20 ../../reference/lists.md:27
+msgid ""
+"Make sure to have a blank line between the paragraphs, and to indent the "
+"paragraphs to the correct level."
+msgstr ""
+
+#: ../../reference/lists.md:13
+msgid "Bullet lists in Markdown are pretty straightforward."
+msgstr ""
+
+#: ../../reference/lists.md:15
+msgid "Nested bullets should be indented by two or more spaces."
+msgstr ""
+
+#: ../../reference/lists.md:16
+msgid ""
+"They can just \"show up\" inline with the rest of the list. Adding blank "
+"lines before and after is also permitted."
+msgstr ""
+
+#: ../../reference/lists.md:34
+msgid "Numbered Lists"
+msgstr ""
+
+#: ../../reference/lists.md:6 ../../reference/lists.md:9
+msgid "Numbered lists are not complicated."
+msgstr ""
+
+#: ../../reference/lists.md:7 ../../reference/lists.md:10
+msgid "They do exactly what you think they do."
+msgstr ""
+
+#: ../../reference/lists.md:9 ../../reference/lists.md:13
+#: ../../reference/lists.md:47
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../reference/lists.md:10 ../../reference/lists.md:13
+msgid "An extremely useful tool for describing stuff."
+msgstr ""
+
+#: ../../reference/lists.md:12 ../../reference/lists.md:15
+msgid "Complicated Term"
+msgstr ""
+
+#: ../../reference/lists.md:13 ../../reference/lists.md:16
+msgid "Definition"
+msgstr ""
+
+#: ../../reference/tables.md:1
+msgid "Tables"
+msgstr ""
+
+#: ../../reference/tables.md:3
+msgid ""
+"Tables can be the best way to organize sets of related pieces of data. "
+"Sphinx supports including tables inline, although the exact syntax and "
+"capabilities depend on the markup language used."
+msgstr ""
+
+#: ../../reference/tables.md:33
+msgid "Grid table:"
+msgstr ""
+
+#: ../../reference/tables.md:36
+msgid "Header 1"
+msgstr ""
+
+#: ../../reference/tables.md:36
+msgid "Header 2"
+msgstr ""
+
+#: ../../reference/tables.md:36
+msgid "Header 3"
+msgstr ""
+
+#: ../../reference/tables.md:38
+msgid "body row 1"
+msgstr ""
+
+#: ../../reference/tables.md:38
+msgid "column 2"
+msgstr ""
+
+#: ../../reference/tables.md:38
+msgid "column 3"
+msgstr ""
+
+#: ../../reference/tables.md:40
+msgid "body row 2"
+msgstr ""
+
+#: ../../reference/tables.md:40
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../reference/tables.md:42
+msgid "body row 3"
+msgstr ""
+
+#: ../../reference/tables.md:42
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../reference/tables.md:42
+msgid "Cells"
+msgstr ""
+
+#: ../../reference/tables.md:43
+msgid "contain"
+msgstr ""
+
+#: ../../reference/tables.md:44
+msgid "blocks."
+msgstr ""
+
+#: ../../reference/tables.md:44
+msgid "body row 4"
+msgstr ""
+
+#: ../../reference/tables.md:47
+msgid "Simple table:"
+msgstr ""
+
+#: ../../reference/tables.md:50
+msgid "Inputs"
+msgstr ""
+
+#: ../../reference/tables.md:50
+msgid "Output"
+msgstr ""
+
+#: ../../reference/tables.md:52
+msgid "A"
+msgstr ""
+
+#: ../../reference/tables.md:52
+msgid "B"
+msgstr ""
+
+#: ../../reference/tables.md:52
+msgid "A or B"
+msgstr ""
+
+#: ../../reference/tables.md:54 ../../reference/tables.md:55
+#: ../../reference/tables.md:56
+msgid "False"
+msgstr ""
+
+#: ../../reference/tables.md:55 ../../reference/tables.md:56
+#: ../../reference/tables.md:57
+msgid "True"
+msgstr ""
+
+#: ../../reference/tables.md:28
+msgid "MyST supports tables like [GitHub Flavoured Markdown][1]."
+msgstr ""
+
+#: ../../reference/tables.md:35
+msgid "List tables are also a thing:"
+msgstr ""
+
+#: ../../reference/tables.md:1
+msgid "This is"
+msgstr ""
+
+#: ../../reference/tables.md:2
+msgid "the header"
+msgstr ""
+
+#: ../../reference/tables.md:3
+msgid "row"
+msgstr ""
+
+#: ../../reference/tables.md:4
+msgid "First"
+msgstr ""
+
+#: ../../reference/tables.md:5 ../../reference/tables.md:8
+msgid "row of"
+msgstr ""
+
+#: ../../reference/tables.md:6 ../../reference/tables.md:9
+msgid "very important content"
+msgstr ""
+
+#: ../../reference/tables.md:7
+msgid "Second"
+msgstr ""
+
+#: ../../reference/tabs.md:1
+msgid "Tabs"
+msgstr ""
+
+#: ../../reference/tabs.md:3
+msgid ""
+"Tabs are good way to organize content, where the reader has choice they "
+"can make (usually based on their environment)."
+msgstr ""
+
+#: ../../reference/tabs.md:5
+msgid ""
+"While Sphinx does not provide tabs out-of-the-box, it is achievable by "
+"using extensions with Sphinx. Furo works well with the following "
+"extensions."
+msgstr ""
+
+#: ../../reference/tabs.md:7
+msgid "[sphinx-inline-tabs]"
+msgstr ""
+
+#: ../../reference/tabs.md:9
+msgid ""
+"This is a small package that provides one thing: good-looking tabs that "
+"work."
+msgstr ""
+
+#: ../../reference/tabs.md:1 ../../reference/tabs.md:16
+msgid "First."
+msgstr ""
+
+#: ../../reference/tabs.md:1 ../../reference/tabs.md:20
+msgid "Second."
+msgstr ""
+
+#: ../../reference/tabs.md:33
+msgid "[sphinx-design]"
+msgstr ""
+
+#: ../../reference/tabs.md:35
+msgid ""
+"A wide ranging extension, providing many reusable components for site "
+"content, including tabs."
+msgstr ""
+
+#: ../../reference/tabs.md
+msgid "Label1"
+msgstr ""
+
+#: ../../reference/tabs.md:20
+msgid "reStructuredText 1"
+msgstr ""
+
+#: ../../reference/tabs.md
+msgid "Label2"
+msgstr ""
+
+#: ../../reference/tabs.md:24
+msgid "reStructuredText 2"
+msgstr ""
+
+#: ../../reference/tabs.md:1
+msgid "Markdown 1"
+msgstr ""
+
+#: ../../reference/tabs.md:1
+msgid "Markdown 2"
+msgstr ""
+
+#: ../../reference/text-formatting.md:1
+msgid "Text Formatting"
+msgstr ""
+
+#: ../../reference/text-formatting.md:3
+msgid ""
+"Text formatting is an important aspect of written text. Sphinx provides "
+"support for several ways to apply specific formatting."
+msgstr ""
+
+#: ../../reference/text-formatting.md:21
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**, "
+"``inline literals``, :sub:`subscript`, :sup:`superscript` and so much "
+"more. Providing a reference to :pep:`8` is straightforward. You can also "
+"include abbreviations like :abbr:`HTML (Hyper Text Markup Language)`."
+msgstr ""
+
+#: ../../reference/text-formatting.md:23 ../../reference/text-formatting.md:26
+msgid "This is blockquoted text."
+msgstr ""
+
+#: ../../reference/text-formatting.md:28
+msgid ""
+"It is possible to have multiple paragraphs of text, which get separated "
+"from each other visually. When stronger visual separation is desired, a "
+"horizontal separator can be used (4 or more punctuation characters on a "
+"line)."
+msgstr ""
+
+#: ../../reference/text-formatting.md:34
+msgid "This is written in reStructuredText."
+msgstr ""
+
+#: ../../reference/text-formatting.md:18
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**, "
+"`inline literals`, {sub}`subscript`, {sup}`superscript` and so much more."
+" Providing a reference to {pep}`8` is straightforward. You can also "
+"include abbreviations like {abbr}`HTML (Hyper Text Markup Language)`."
+msgstr ""
+
+#: ../../reference/text-formatting.md:25
+msgid ""
+"It is possible to have multiple paragraphs of text, which get separated "
+"from each other visually. When stronger visual separation is desired, a "
+"horizontal separator can be used (3 or more punctuation characters on a "
+"line)."
+msgstr ""
+
+#: ../../reference/text-formatting.md:31
+msgid "This is written in Markdown."
+msgstr ""
+

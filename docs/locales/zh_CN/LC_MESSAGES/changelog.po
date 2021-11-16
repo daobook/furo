@@ -1,0 +1,1200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 15:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../changelog.md:1
+msgid "Changelog"
+msgstr ""
+
+#: ../../changelog.md:12
+msgid "2021.11.16 -- Grumpy Ghost"
+msgstr ""
+
+#: ../../changelog.md:14
+msgid "Fix a typo, that broke the sidebar highlight logic."
+msgstr ""
+
+#: ../../changelog.md:16
+msgid "2021.11.15 -- Fearless Fawn"
+msgstr ""
+
+#: ../../changelog.md:18
+msgid "Tweak API documentation presentation to match pdoc3's style."
+msgstr ""
+
+#: ../../changelog.md:19
+msgid "Bring back browser-specific prefixes, for compatibility."
+msgstr ""
+
+#: ../../changelog.md:21
+msgid "2021.11.12.1 -- Enamoured Emerald bugfix"
+msgstr ""
+
+#: ../../changelog.md:23
+msgid "Fix RECORD file contents."
+msgstr ""
+
+#: ../../changelog.md:25
+msgid "2021.11.12 -- Enamoured Emerald"
+msgstr ""
+
+#: ../../changelog.md:27
+msgid ""
+"Adopt `sphinx-theme-builder`, which runs the JS-based asset build process"
+" during the regular Python build process."
+msgstr ""
+
+#: ../../changelog.md:28
+msgid "Rework the build pipeline to be webpack-based."
+msgstr ""
+
+#: ../../changelog.md:29
+msgid "Tweak colours in dark mode."
+msgstr ""
+
+#: ../../changelog.md:30
+msgid "Present better error messages on misconfiguration."
+msgstr ""
+
+#: ../../changelog.md:31
+msgid "Tweak presentation of blockquotes, to be more visually distinct."
+msgstr ""
+
+#: ../../changelog.md:32
+msgid ""
+"Stylize topics like admonitions, as specified in the reStructuredText "
+"spec."
+msgstr ""
+
+#: ../../changelog.md:33
+msgid "Handle long single words in the sidebar."
+msgstr ""
+
+#: ../../changelog.md:34
+msgid "Only hide Sphinx from the footer, when `show_sphinx` is set to `False`."
+msgstr ""
+
+#: ../../changelog.md:36
+msgid "2021.10.09 -- Delicate Dandelion"
+msgstr ""
+
+#: ../../changelog.md:38
+msgid "Add a bit more space below content icon container."
+msgstr ""
+
+#: ../../changelog.md:39
+msgid "Add CSS variables for table header background and table border."
+msgstr ""
+
+#: ../../changelog.md:40
+msgid "Fix behaviour of URL-style references in `html_logo` and `html_favicon`."
+msgstr ""
+
+#: ../../changelog.md:41
+msgid "Improve selector for embedded-in-text images."
+msgstr ""
+
+#: ../../changelog.md:42
+msgid "Improve the contrast ratios in API documentation."
+msgstr ""
+
+#: ../../changelog.md:44
+msgid "2021.09.22 -- Cavalier Canary"
+msgstr ""
+
+#: ../../changelog.md:46
+msgid ""
+"Restyle API documentation signatures, to have a background and use "
+"monospace fonts."
+msgstr ""
+
+#: ../../changelog.md:47
+msgid "Reduce spacing for items in API documentation."
+msgstr ""
+
+#: ../../changelog.md:48
+msgid "Improve the presentation of links in site-wide announcement."
+msgstr ""
+
+#: ../../changelog.md:49
+msgid "Only add a border on code inside paragraphs."
+msgstr ""
+
+#: ../../changelog.md:50
+msgid "Use `noscript` for presenting \"search needs JS\" message."
+msgstr ""
+
+#: ../../changelog.md:52
+msgid "2021.09.08 -- Balmy Blue"
+msgstr ""
+
+#: ../../changelog.md:54
+msgid ""
+"Prevent screen-reader-only content from showing up in Sphinx search "
+"results."
+msgstr ""
+
+#: ../../changelog.md:55
+msgid "Improve support for various footer configurations."
+msgstr ""
+
+#: ../../changelog.md:57
+msgid "2021.08.31 -- Aspiring Avocado"
+msgstr ""
+
+#: ../../changelog.md:59
+msgid "First stable release! 🎉"
+msgstr ""
+
+#: ../../changelog.md:60
+msgid "Document stability policy."
+msgstr ""
+
+#: ../../changelog.md:61
+msgid "Tweak API styling selectors."
+msgstr ""
+
+#: ../../changelog.md:62
+msgid "Drop reference to no-longer-used `pygments_dark.css`."
+msgstr ""
+
+#: ../../changelog.md:63
+msgid "Eagerly set the light/dark mode theme, when loading a page."
+msgstr ""
+
+#: ../../changelog.md:65
+msgid "2021.08.17.beta43"
+msgstr ""
+
+#: ../../changelog.md:67
+msgid "Add support for sphinx-design."
+msgstr ""
+
+#: ../../changelog.md:68
+msgid "Document sidebar title customization."
+msgstr ""
+
+#: ../../changelog.md:69
+msgid "Don't show \"Contents\" on pages without h1 headings."
+msgstr ""
+
+#: ../../changelog.md:70
+msgid "Add border to inline code, to improve contrast."
+msgstr ""
+
+#: ../../changelog.md:71
+msgid "Reduce contrast on dark-mode text."
+msgstr ""
+
+#: ../../changelog.md:73
+msgid "2021.08.11.beta42"
+msgstr ""
+
+#: ../../changelog.md:75
+msgid "Fix esoteric failure due to inability to write pygments.css."
+msgstr ""
+
+#: ../../changelog.md:76
+msgid "Improve overscroll behaviour."
+msgstr ""
+
+#: ../../changelog.md:78
+msgid "2021.07.31.beta41"
+msgstr ""
+
+#: ../../changelog.md:80
+msgid "Adapt for newer sphinx-copybutton design"
+msgstr ""
+
+#: ../../changelog.md:81
+msgid "Improved screen reader experience"
+msgstr ""
+
+#: ../../changelog.md:82
+msgid "Bring back asset digests, to avoid caching-related issues"
+msgstr ""
+
+#: ../../changelog.md:84
+msgid "2021.07.28.beta40"
+msgstr ""
+
+#: ../../changelog.md:86
+msgid "Add spacing around light theme / dark theme / auto theme toggle."
+msgstr ""
+
+#: ../../changelog.md:88
+msgid "2021.07.28.beta39"
+msgstr ""
+
+#: ../../changelog.md:90
+msgid ""
+"Site visitors can now force light theme / dark theme, independently of "
+"browser settings. 🎉"
+msgstr ""
+
+#: ../../changelog.md:91
+msgid "Rework handling of dark theme code block highlighting."
+msgstr ""
+
+#: ../../changelog.md:92
+msgid ""
+"\"Hide Search Matches\" shows up in the sidebar, when the user has search"
+" matches highlighted."
+msgstr ""
+
+#: ../../changelog.md:93
+msgid "Search term highlights are only shown in the page content."
+msgstr ""
+
+#: ../../changelog.md:94
+msgid "Fix styling for default aligned tables."
+msgstr ""
+
+#: ../../changelog.md:95
+msgid "Enable smooth scrolling."
+msgstr ""
+
+#: ../../changelog.md:96
+msgid "meta: Upgrade NodeJS packages and start using Babel."
+msgstr ""
+
+#: ../../changelog.md:97
+msgid "meta: Rework organisation of various user-facing CSS variables."
+msgstr ""
+
+#: ../../changelog.md:99
+msgid "2021.07.05.beta38"
+msgstr ""
+
+#: ../../changelog.md:101
+msgid "Fix image alignment in Sphinx 4."
+msgstr ""
+
+#: ../../changelog.md:103
+msgid "2021.06.24.beta37"
+msgstr ""
+
+#: ../../changelog.md:105
+msgid "Require Sphinx 4."
+msgstr ""
+
+#: ../../changelog.md:106
+msgid "Rework CSS/JS asset inclusion, to work better with Sphinx 4."
+msgstr ""
+
+#: ../../changelog.md:107
+msgid "Document how to add a custom admonition style."
+msgstr ""
+
+#: ../../changelog.md:109
+msgid "2021.06.18.beta36"
+msgstr ""
+
+#: ../../changelog.md:111
+msgid "Fix dark mode highlighting in Sphinx 4."
+msgstr ""
+
+#: ../../changelog.md:113
+msgid "2021.06.18.beta35"
+msgstr ""
+
+#: ../../changelog.md:115
+msgid "Allow use with Sphinx 4."
+msgstr ""
+
+#: ../../changelog.md:116
+msgid ""
+"Fix right alignment of viewcode links, when used with certain API "
+"signatures."
+msgstr ""
+
+#: ../../changelog.md:119
+msgid "2021.04.11.beta34"
+msgstr ""
+
+#: ../../changelog.md:121
+msgid "Account for even more variants of sidebar-caption HTML."
+msgstr ""
+
+#: ../../changelog.md:123
+msgid "2021.04.11.beta33"
+msgstr ""
+
+#: ../../changelog.md:125
+msgid "Another styling update sidebar-caption related changes in Sphinx."
+msgstr ""
+
+#: ../../changelog.md:127
+msgid "2021.04.11.beta32"
+msgstr ""
+
+#: ../../changelog.md:129
+msgid "Add a basic domainindex page, without dedicated styling."
+msgstr ""
+
+#: ../../changelog.md:130
+msgid "Add recommendation for sphinx-opengraph."
+msgstr ""
+
+#: ../../changelog.md:131
+msgid "Account for newer Sphinx versions changing classes for captions."
+msgstr ""
+
+#: ../../changelog.md:132
+msgid "Account for the broken docutils release."
+msgstr ""
+
+#: ../../changelog.md:133
+msgid ""
+"Right align viewcode links (like `[source]`) allowing wrapping of API "
+"signatures gradefully."
+msgstr ""
+
+#: ../../changelog.md:136
+msgid "2021.03.20.beta31"
+msgstr ""
+
+#: ../../changelog.md:138
+msgid "Get `pygments_dark_style` working."
+msgstr ""
+
+#: ../../changelog.md:139
+msgid "Use the correct layout for domain index placeholder."
+msgstr ""
+
+#: ../../changelog.md:141
+msgid "2021.03.20.beta30"
+msgstr ""
+
+#: ../../changelog.md:143
+msgid "Fix a typo in the README."
+msgstr ""
+
+#: ../../changelog.md:144
+msgid "Add an escape hatch for specific table of contents."
+msgstr ""
+
+#: ../../changelog.md:146
+msgid "2021.03.19.beta29"
+msgstr ""
+
+#: ../../changelog.md:148
+msgid "Update Python-Requires to >=3.6."
+msgstr ""
+
+#: ../../changelog.md:149
+msgid "Account for nested admonitions."
+msgstr ""
+
+#: ../../changelog.md:150
+msgid "Center align items like other themes."
+msgstr ""
+
+#: ../../changelog.md:151
+msgid "Don't stylize the compound `kbd` tags."
+msgstr ""
+
+#: ../../changelog.md:152
+msgid "Fix a broken internal link in documentation."
+msgstr ""
+
+#: ../../changelog.md:153
+msgid "Fix a mistyped vertical-align style."
+msgstr ""
+
+#: ../../changelog.md:154
+msgid "Vertically align embedded-in-text images."
+msgstr ""
+
+#: ../../changelog.md:155
+msgid "Declare in HTML that the theme's pages support multiple color schemes."
+msgstr ""
+
+#: ../../changelog.md:157
+msgid "2021.02.28.beta28"
+msgstr ""
+
+#: ../../changelog.md:159
+msgid "Fix a bug in how stylesheets are handled."
+msgstr ""
+
+#: ../../changelog.md:160
+msgid "Clarify how to install directly from GitHub."
+msgstr ""
+
+#: ../../changelog.md:161
+msgid "Document how to install from git."
+msgstr ""
+
+#: ../../changelog.md:163
+msgid "2021.02.28.beta27"
+msgstr ""
+
+#: ../../changelog.md:165
+msgid "Center figures and legends with `margin: auto`."
+msgstr ""
+
+#: ../../changelog.md:166
+msgid ""
+"Improve compatibility with `json` builder, by not passing functions into "
+"the Jinja templates."
+msgstr ""
+
+#: ../../changelog.md:168
+msgid ""
+"Add a friendly comment to `domainindex.html`, about it not being "
+"implemented."
+msgstr ""
+
+#: ../../changelog.md:169
+msgid "Add styling for GUI labels."
+msgstr ""
+
+#: ../../changelog.md:171
+msgid "2021.02.27.beta26"
+msgstr ""
+
+#: ../../changelog.md:173
+msgid ""
+"Fix wrong height on wide screens, for pages with a tall sidebar but not-"
+"tall content."
+msgstr ""
+
+#: ../../changelog.md:175
+msgid "Add type annotations to the codebase! 🎉"
+msgstr ""
+
+#: ../../changelog.md:176
+msgid "Fix an instance of missing brackets in documentation."
+msgstr ""
+
+#: ../../changelog.md:178
+msgid "2021.02.21.beta25"
+msgstr ""
+
+#: ../../changelog.md:180
+msgid "Document how to inject custom code in Sphinx documentation"
+msgstr ""
+
+#: ../../changelog.md:181
+msgid "Document that `pygments_dark_style` is Furo-specific"
+msgstr ""
+
+#: ../../changelog.md:182
+msgid "Make `sphinx-panels` respond to dark mode with Furo"
+msgstr ""
+
+#: ../../changelog.md:183
+msgid ""
+"Stop `defer`ing Javascript, which was causing search to break in some "
+"cases."
+msgstr ""
+
+#: ../../changelog.md:185
+msgid "2020.12.30.beta24"
+msgstr ""
+
+#: ../../changelog.md:187
+msgid "Disable environment caching if `pygments_dark_style` is changed."
+msgstr ""
+
+#: ../../changelog.md:188
+msgid ""
+"Revert to earlier background color for inline literals, and allow "
+"configuring it via a CSS variables."
+msgstr ""
+
+#: ../../changelog.md:191
+msgid "2020.12.28.beta23"
+msgstr ""
+
+#: ../../changelog.md:193
+msgid ""
+"Fix code-block overflow issue, introduced by the fix for sphinx-"
+"copybutton compatibility."
+msgstr ""
+
+#: ../../changelog.md:194
+msgid "Tweak horizontal rules, to always be 1px tall."
+msgstr ""
+
+#: ../../changelog.md:195
+msgid "Tweak background color for inline literals, to match code blocks."
+msgstr ""
+
+#: ../../changelog.md:197
+msgid "2020.12.28.beta22"
+msgstr ""
+
+#: ../../changelog.md:199
+msgid "MAJOR: Move theme files into a \"furo\" folder."
+msgstr ""
+
+#: ../../changelog.md:200
+msgid "This affects any users deriving from furo's templates."
+msgstr ""
+
+#: ../../changelog.md:201
+msgid "Add (custom) support for `pygments_dark_style`."
+msgstr ""
+
+#: ../../changelog.md:202
+msgid "Add support for `genindex` pages."
+msgstr ""
+
+#: ../../changelog.md:203
+msgid "Note that `html_split_index` is not supported at this time."
+msgstr ""
+
+#: ../../changelog.md:204
+msgid ""
+"Add support for highlighting API elements, when accessed via \"#hash\" in"
+" URL."
+msgstr ""
+
+#: ../../changelog.md:205
+msgid ""
+"Add `language_data.js` to search page, fixing `Stemmer` related failures "
+"in Sphinx 3.4."
+msgstr ""
+
+#: ../../changelog.md:206
+msgid "Document how to add a site-wide announcement."
+msgstr ""
+
+#: ../../changelog.md:207
+msgid "Fix sphinx-copybutton placement on scrollable code blocks."
+msgstr ""
+
+#: ../../changelog.md:208
+msgid ""
+"Generate an error page, for documents using `layout.html` from Sphinx's "
+"`basic` theme."
+msgstr ""
+
+#: ../../changelog.md:209
+msgid "Translate placeholder in sidebar's search."
+msgstr ""
+
+#: ../../changelog.md:210
+msgid "Tweak how additional h1 headings are handled in ToC sidebar."
+msgstr ""
+
+#: ../../changelog.md:211
+msgid ""
+"Update dependency constraints, limiting compatibility to Sphinx 3.x "
+"versions."
+msgstr ""
+
+#: ../../changelog.md:213
+msgid "2020.12.09.beta21"
+msgstr ""
+
+#: ../../changelog.md:215
+msgid "Rebuild theme assets, for main release."
+msgstr ""
+
+#: ../../changelog.md:217
+msgid "2020.12.09.beta20"
+msgstr ""
+
+#: ../../changelog.md:219
+msgid "Clarify expectations around sidebar customisation."
+msgstr ""
+
+#: ../../changelog.md:220
+msgid "Declare plugin information to pacify Sphinx's \"are you parallel\" check."
+msgstr ""
+
+#: ../../changelog.md:221
+msgid "Disable sidebar-follows-you-as-you-scroll Javascript."
+msgstr ""
+
+#: ../../changelog.md:222
+msgid "Fix scrollbar styles affecting document body."
+msgstr ""
+
+#: ../../changelog.md:223
+msgid "Tweak colors for problematic content."
+msgstr ""
+
+#: ../../changelog.md:224
+msgid "Tweak how words wrap in sidebar title."
+msgstr ""
+
+#: ../../changelog.md:225 ../../changelog.md:326
+msgid "Tweak spacing in API documentation."
+msgstr ""
+
+#: ../../changelog.md:226
+msgid "Tweak wrapping of text in API function/class signatures."
+msgstr ""
+
+#: ../../changelog.md:228
+msgid "2020.11.27.beta19"
+msgstr ""
+
+#: ../../changelog.md:230
+msgid "Add styling for rubrics."
+msgstr ""
+
+#: ../../changelog.md:231
+msgid "Add styling for scrollbars, to make them match the theme."
+msgstr ""
+
+#: ../../changelog.md:232
+msgid "Fix bottom-of-page JS conditional."
+msgstr ""
+
+#: ../../changelog.md:233
+msgid ""
+"Fix stability of resources hashes. (thanks "
+"[@dvarrazzo](https://github.com/dvarrazzo))"
+msgstr ""
+
+#: ../../changelog.md:234
+msgid "Fix styling for multi-term definition lists items."
+msgstr ""
+
+#: ../../changelog.md:235
+msgid "Re-add our development documentation kitchen-sink."
+msgstr ""
+
+#: ../../changelog.md:236
+msgid "Tweak how ToC sidebar handles scrollbars."
+msgstr ""
+
+#: ../../changelog.md:237
+msgid "Tweak styling for basic definition lists."
+msgstr ""
+
+#: ../../changelog.md:239
+msgid "2020.11.19.beta18"
+msgstr ""
+
+#: ../../changelog.md:241
+msgid ""
+"Fix search page. It had become non-operational, due to changes to JS in "
+"the previous release."
+msgstr ""
+
+#: ../../changelog.md:244
+msgid "2020.11.15.beta17"
+msgstr ""
+
+#: ../../changelog.md:246
+msgid "Add properly documented mechanisms for customising the sidebar."
+msgstr ""
+
+#: ../../changelog.md:247
+msgid "Add dedicated styling for ethical ads."
+msgstr ""
+
+#: ../../changelog.md:248
+msgid "Tweak how JS scripts are loaded."
+msgstr ""
+
+#: ../../changelog.md:250
+msgid "2020.11.14.beta16"
+msgstr ""
+
+#: ../../changelog.md:252
+msgid "Add a separate file for CSS that affects other Sphinx extensions."
+msgstr ""
+
+#: ../../changelog.md:253
+msgid "Add content to all the existing pages in documentation."
+msgstr ""
+
+#: ../../changelog.md:254
+msgid "Clarify that Furo is biased toward smaller documentation sets."
+msgstr ""
+
+#: ../../changelog.md:255
+msgid "Clarify that logo files need to be in `html_static_path`"
+msgstr ""
+
+#: ../../changelog.md:256
+msgid "Improve various explanations in documentation."
+msgstr ""
+
+#: ../../changelog.md:257
+msgid "Tweak borders inside tables."
+msgstr ""
+
+#: ../../changelog.md:258
+msgid "Tweak bottom spacing on right sidebar."
+msgstr ""
+
+#: ../../changelog.md:259
+msgid "Tweak CSS and JS blocks in `base.html` template."
+msgstr ""
+
+#: ../../changelog.md:260
+msgid "Tweak how captions for toctrees look."
+msgstr ""
+
+#: ../../changelog.md:261
+msgid "Tweak spacing on sidebar ad on ReadTheDocs."
+msgstr ""
+
+#: ../../changelog.md:263
+msgid "2020.11.10.beta15"
+msgstr ""
+
+#: ../../changelog.md:265
+msgid "Add a recommendations page, for plugins"
+msgstr ""
+
+#: ../../changelog.md:266
+msgid "Add support for different logos in light and dark mode"
+msgstr ""
+
+#: ../../changelog.md:267
+msgid "Change location of TOC drawer icon on mobile"
+msgstr ""
+
+#: ../../changelog.md:268
+msgid "Drop support for `html_sidebars` based customisation."
+msgstr ""
+
+#: ../../changelog.md:269
+msgid "Improve how the RTD ads work"
+msgstr ""
+
+#: ../../changelog.md:270
+msgid "Improve TOC sidebar auto-scroll functional"
+msgstr ""
+
+#: ../../changelog.md:271
+msgid "Significantly improve footer capabilities"
+msgstr ""
+
+#: ../../changelog.md:273
+msgid "2020.11.01.beta14"
+msgstr ""
+
+#: ../../changelog.md:275
+msgid "Add classifiers to the theme."
+msgstr ""
+
+#: ../../changelog.md:276
+msgid "Add friendly messages for users of `html_sidebars`."
+msgstr ""
+
+#: ../../changelog.md:277
+msgid "Add link to homepage, in mobile header."
+msgstr ""
+
+#: ../../changelog.md:278
+msgid "Add support for ethical ads in the sidebar."
+msgstr ""
+
+#: ../../changelog.md:279
+msgid "Change `css_variables` to `light_css_variables`."
+msgstr ""
+
+#: ../../changelog.md:280
+msgid "Change font stack to match to GitHub."
+msgstr ""
+
+#: ../../changelog.md:281
+msgid "Change the color used for `<hr>` tags."
+msgstr ""
+
+#: ../../changelog.md:282
+msgid "Change unsplash URLs to use cute+animal as cues"
+msgstr ""
+
+#: ../../changelog.md:283
+msgid "Document `navigation_with_keys`."
+msgstr ""
+
+#: ../../changelog.md:284
+msgid "Drop logic that jumps toc-scroll to bottom-of-page."
+msgstr ""
+
+#: ../../changelog.md:285
+msgid "Improve customisation documentation."
+msgstr ""
+
+#: ../../changelog.md:286
+msgid "Remove text underline from headerlink."
+msgstr ""
+
+#: ../../changelog.md:287
+msgid "Strip tags in title."
+msgstr ""
+
+#: ../../changelog.md:289
+msgid "2020.10.15.beta13"
+msgstr ""
+
+#: ../../changelog.md:291
+msgid "Add a direct dependency on Sphinx."
+msgstr ""
+
+#: ../../changelog.md:292
+msgid "Add styling for \"highlighted text\" in dark mode."
+msgstr ""
+
+#: ../../changelog.md:293
+msgid "Add support for sphinx-inline-tabs."
+msgstr ""
+
+#: ../../changelog.md:294
+msgid "Change the default development branch name to `main`."
+msgstr ""
+
+#: ../../changelog.md:295
+msgid "Drop customisations for sphinx-panel's tabs."
+msgstr ""
+
+#: ../../changelog.md:296
+msgid "Rework the entire handling of background and foreground colours."
+msgstr ""
+
+#: ../../changelog.md:297
+msgid "Tweak API documentation, when presented in dark mode."
+msgstr ""
+
+#: ../../changelog.md:298
+msgid "Tweak Bootstrap 4 `.container` styling (comes from sphinx-panel)."
+msgstr ""
+
+#: ../../changelog.md:299
+msgid "Tweak borders on tables."
+msgstr ""
+
+#: ../../changelog.md:300
+msgid "Tweak dark mode colors."
+msgstr ""
+
+#: ../../changelog.md:301
+msgid "Tweak light mode colors."
+msgstr ""
+
+#: ../../changelog.md:303
+msgid "2020.10.13.beta12"
+msgstr ""
+
+#: ../../changelog.md:305
+msgid "Fix image link in README, to show up correctly on PyPI."
+msgstr ""
+
+#: ../../changelog.md:307
+msgid "2020.10.13.beta11"
+msgstr ""
+
+#: ../../changelog.md:309
+msgid "Tweak colors for dark mode."
+msgstr ""
+
+#: ../../changelog.md:310
+msgid "Tweak presentation of `<kbd>`, to look better in dark mode."
+msgstr ""
+
+#: ../../changelog.md:312
+msgid "2020.10.13.beta10"
+msgstr ""
+
+#: ../../changelog.md:314
+msgid "Add dark mode support, based on `prefers-color-scheme`! 🎉"
+msgstr ""
+
+#: ../../changelog.md:315
+msgid "Add more information in the documentation (reference and customisation)."
+msgstr ""
+
+#: ../../changelog.md:316
+msgid "Add sourcemaps in the generated distribution."
+msgstr ""
+
+#: ../../changelog.md:317
+msgid "Add support for glossary lists."
+msgstr ""
+
+#: ../../changelog.md:318
+msgid "Drop the custom ReadTheDocs-specific CSS."
+msgstr ""
+
+#: ../../changelog.md:319
+msgid "Fix bad transparency handling for sidebar hover on Safari."
+msgstr ""
+
+#: ../../changelog.md:320
+msgid "Fix shrinking of sidebar brand image on Safari."
+msgstr ""
+
+#: ../../changelog.md:321
+msgid "Tweak spacing in admonitions."
+msgstr ""
+
+#: ../../changelog.md:323
+msgid "2020.10.05.beta9"
+msgstr ""
+
+#: ../../changelog.md:325
+msgid "Add per-build hashes to asset URLs, to simplify cache invalidation."
+msgstr ""
+
+#: ../../changelog.md:328
+msgid "2020.09.28.beta8"
+msgstr ""
+
+#: ../../changelog.md:330
+msgid "Require Sphinx 3."
+msgstr ""
+
+#: ../../changelog.md:331
+msgid "Add styling for API documentation."
+msgstr ""
+
+#: ../../changelog.md:332
+msgid "Add styling for abbreviations."
+msgstr ""
+
+#: ../../changelog.md:333
+msgid "Add `clear` CSS property for left/right aligned content."
+msgstr ""
+
+#: ../../changelog.md:334
+msgid "Add styling to tweak the look of tabs."
+msgstr ""
+
+#: ../../changelog.md:335
+msgid "Drop the complexities introduced for custom homepages."
+msgstr ""
+
+#: ../../changelog.md:336
+msgid "Tweak color of problematic content."
+msgstr ""
+
+#: ../../changelog.md:337
+msgid "Tweak font-size handling for code-blocks."
+msgstr ""
+
+#: ../../changelog.md:338
+msgid "Tweak font-size handling for admonitions."
+msgstr ""
+
+#: ../../changelog.md:339
+msgid "Tweak spacing around code-blocks."
+msgstr ""
+
+#: ../../changelog.md:340
+msgid "Tweak how pages look with announcement and shorter-than-viewport content."
+msgstr ""
+
+#: ../../changelog.md:341
+msgid "Tweak styling for lists."
+msgstr ""
+
+#: ../../changelog.md:342
+msgid "Fix overlays to correctly show on top of content."
+msgstr ""
+
+#: ../../changelog.md:343
+msgid "Restructure sidebar scrolling, to correctly fill viewport."
+msgstr ""
+
+#: ../../changelog.md:344
+msgid "Change JS from the basic theme to use blocking network requests."
+msgstr ""
+
+#: ../../changelog.md:345
+msgid ""
+"Change inline table of contents to look like an error, nudging toward to "
+"not using it."
+msgstr ""
+
+#: ../../changelog.md:347
+msgid "2020.09.15.beta7"
+msgstr ""
+
+#: ../../changelog.md:349
+msgid "Automate version management"
+msgstr ""
+
+#: ../../changelog.md:350
+#, python-format
+msgid "Use correct width for elements on small screens (100% instead of 100vw)"
+msgstr ""
+
+#: ../../changelog.md:352
+msgid "2020.09.15.beta6"
+msgstr ""
+
+#: ../../changelog.md:354
+msgid "Tweak header on small screens."
+msgstr ""
+
+#: ../../changelog.md:355
+msgid "Tweak spacing for small screens."
+msgstr ""
+
+#: ../../changelog.md:356
+msgid "Place \"sidebar\" directive's contents inline, on small screens."
+msgstr ""
+
+#: ../../changelog.md:358
+msgid "2020.08.14.beta5"
+msgstr ""
+
+#: ../../changelog.md:1
+msgid ""
+"This release was not correctly versioned and is not installed "
+"preferentially over beta4."
+msgstr ""
+
+#: ../../changelog.md:364
+msgid "Add CSS variables for header foreground and background."
+msgstr ""
+
+#: ../../changelog.md:365
+msgid "Add styling for captions."
+msgstr ""
+
+#: ../../changelog.md:366
+msgid "Add styling for correctly handling permalinks."
+msgstr ""
+
+#: ../../changelog.md:367
+msgid ""
+"Correctly stylize _only_ definition lists with the rules intended for "
+"them."
+msgstr ""
+
+#: ../../changelog.md:368
+msgid "Fix next/prev links flowing into one-another by limiting width to 50%."
+msgstr ""
+
+#: ../../changelog.md:369
+msgid "Fix positioning of collapsed contents sidebar icon."
+msgstr ""
+
+#: ../../changelog.md:370
+msgid "Fix shrinking arrows in next/prev links."
+msgstr ""
+
+#: ../../changelog.md:371
+msgid ""
+"Include `basic` theme's JS files unconditionally. This should help with "
+"compatibility with various Sphinx extensions and ReadTheDocs."
+msgstr ""
+
+#: ../../changelog.md:372
+msgid "Make `math` elements scrollable, when wider than the page."
+msgstr ""
+
+#: ../../changelog.md:373
+msgid "Tweak images to be responsive."
+msgstr ""
+
+#: ../../changelog.md:374
+msgid "Tweak spacing of paragraphs."
+msgstr ""
+
+#: ../../changelog.md:375
+msgid "Tweak location of ReadTheDocs' injected version helper."
+msgstr ""
+
+#: ../../changelog.md:377
+msgid "2020.9.8.beta4"
+msgstr ""
+
+#: ../../changelog.md:379
+msgid "More fixes for Python 3.7 support."
+msgstr ""
+
+#: ../../changelog.md:381
+msgid "2020.9.8.beta3"
+msgstr ""
+
+#: ../../changelog.md:383
+msgid "Add support for `sphinx.ext.todo`."
+msgstr ""
+
+#: ../../changelog.md:384
+msgid "Add support for hiding name in sidebar."
+msgstr ""
+
+#: ../../changelog.md:385
+msgid "Add reference to deployed documentation in README."
+msgstr ""
+
+#: ../../changelog.md:386
+msgid "Tweak font size for admonitions."
+msgstr ""
+
+#: ../../changelog.md:387
+msgid "Tweak spacing for contents sidebar."
+msgstr ""
+
+#: ../../changelog.md:388
+msgid "Tweak styling of inline code."
+msgstr ""
+
+#: ../../changelog.md:389
+msgid "Fix support for Python < 3.8."
+msgstr ""
+
+#: ../../changelog.md:391
+msgid "2020.9.8.beta2"
+msgstr ""
+
+#: ../../changelog.md:393
+msgid "Add support for logos in the sidebar."
+msgstr ""
+
+#: ../../changelog.md:394
+msgid "Fix path used for search page."
+msgstr ""
+
+#: ../../changelog.md:395
+msgid "Tweak height for short pages on mobile (100vh resulted in a scroll)."
+msgstr ""
+
+#: ../../changelog.md:396
+msgid "Tweak definition lists."
+msgstr ""
+
+#: ../../changelog.md:397
+msgid "Tweak line height in contents, to accommodate for code literals."
+msgstr ""
+
+#: ../../changelog.md:398
+msgid "Use `em` as the unit for layout sizes."
+msgstr ""
+
+#: ../../changelog.md:399
+msgid "Start writing theme's documentation."
+msgstr ""
+
+#: ../../changelog.md:400
+msgid "Deploy documentation on <https://pradyunsg.me/furo/>."
+msgstr ""
+
+#: ../../changelog.md:402
+msgid "2020.9.2.beta1"
+msgstr ""
+
+#: ../../changelog.md:404
+msgid "Initial release."
+msgstr ""
+

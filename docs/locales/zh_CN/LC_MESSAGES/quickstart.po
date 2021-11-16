@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 15:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../quickstart.md:1
+msgid "Quickstart"
+msgstr "快速入门"
+
+#: ../../../README.md:3
+msgid "Furo is distributed on [PyPI]. To use the theme in your Sphinx project:"
+msgstr "Furo 是在 [PyPI] 上发布的。要在你的 Sphinx 项目中使用该主题："
+
+#: ../../../README.md:5
+msgid "Install Furo in documentation's build environment."
+msgstr "在文档的构建环境中安装 Furo。"
+
+#: ../../../README.md:11
+msgid "Update the `html_theme` in `conf.py`."
+msgstr "更新 `conf.py` 中的 `html_theme`。"
+
+#: ../../../README.md:17
+msgid ""
+"Your Sphinx documentation's HTML pages will now be generated with this "
+"theme! 🎉"
+msgstr ""
+"你的 Sphinx 文档的 HTML 页面现在将用这个主题生成！🎉"
