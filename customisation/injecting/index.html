@@ -1,18 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh_CN">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Reference" href="../../reference/" /><link rel="prev" title="Hiding Contents sidebar" href="../toc/" />
+<link rel="index" title="索引" href="../../genindex/" /><link rel="search" title="搜索" href="../../search/" /><link rel="next" title="Reference" href="../../reference/" /><link rel="prev" title="Hiding Contents sidebar" href="../toc/" />
 
-    <meta name="generator" content="sphinx-4.2.0, furo 2021.10.09.dev1"/>
+    <meta name="generator" content="sphinx-4.3.0, furo 2021.11.16.dev1"/>
         <title>Injecting code - Furo</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=0254c309f5cadf746f1a613e7677379ac9c8cdcd" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=916d6ed8f59335acffa15474ff504849343d4c76" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/design-style.d53ab927f7bad3eaa42da95908504b10.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=16fb25fabf47304eee183a5e9af80b1ba98259b1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
     <link rel="stylesheet" type="text/css" href="../../_static/pied-piper-admonition.css" />
     
     
@@ -157,13 +157,13 @@
   <span class="sidebar-brand-text">Furo</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search/" role="search">
-  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input class="sidebar-search" placeholder=搜索 name="q" aria-label="搜索">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../quickstart/">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quickstart/">快速入门</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../">Customisation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../logo/">Adding a logo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../colors/">Changing colors</a></li>
@@ -189,7 +189,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../recommendations/">Recommendations</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<p class="caption" role="heading"><span class="caption-text">开发</span></p>
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../contributing/">Contributing</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../contributing/workflow/">Workflow</a></li>
@@ -210,7 +210,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../stability/">Stability Policy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog/">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub Repository</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub 仓库</a></li>
 </ul>
 
 </div>
@@ -238,22 +238,22 @@
         </div>
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="injecting-code">
-<h1>Injecting code<a class="headerlink" href="#injecting-code" title="Permalink to this headline">¶</a></h1>
+<h1>Injecting code<a class="headerlink" href="#injecting-code" title="永久链接至标题">¶</a></h1>
 <p>Sphinx makes it fairly straightforward to add custom JS/CSS/HTML code to your pages. Furo supports the mechanisms provided by Sphinx for this.</p>
 <section id="css-or-js">
-<h2>CSS or JS<a class="headerlink" href="#css-or-js" title="Permalink to this headline">¶</a></h2>
+<h2>CSS or JS<a class="headerlink" href="#css-or-js" title="永久链接至标题">¶</a></h2>
 <p>ReadTheDocs has an excellent explanation on <a class="reference external" href="https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html">how to add custom CSS or JS files</a> to Sphinx-based documentation. No point repeating information in two places. 😄</p>
 </section>
 <section id="html">
-<h2>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
+<h2>HTML<a class="headerlink" href="#html" title="永久链接至标题">¶</a></h2>
 <div class="admonition caution">
-<p class="admonition-title">Caution</p>
+<p class="admonition-title">小心</p>
 <p>This customisation considered “unstable” under Furo’s <span class="xref myst">stability</span> policy.</p>
 </div>
 <p>This is entirely powered by Sphinx’s templating mechanism, which is built upon <a class="reference external" href="https://pypi.org/project/Jinja2/">Jinja2</a>.</p>
 <p>The primary way to do this is to override the content of the Furo’s default templates with your own templates, using <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-templates_path"><code class="docutils literal notranslate"><span class="pre">templates_path</span></code></a>. For more information on how to do so, <a class="reference external" href="https://www.sphinx-doc.org/en/master/development/theming.html#templating">Sphinx’s templating documentation</a>.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">注解</p>
 <p>The expectation is that users who override Furo’s templates would also carefully consider how their documentation looks across various platforms (i.e. not take a “looks OK on my machine” approach) and would also be willing to extend Furo’s CSS to make their HTML changes work well.</p>
 </div>
 </section>
@@ -292,7 +292,7 @@
           <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             | <a class="muted-link" href="../../_sources/customisation/injecting.md.txt"
                rel="nofollow">
-              Show Source
+              显示源代码
             </a>
         </div>
         
@@ -304,7 +304,7 @@
       <div class="toc-sticky toc-scroll">
         <div class="toc-title-container">
           <span class="toc-title">
-            Contents
+            目录
           </span>
         </div>
         <div class="toc-tree-container">
@@ -328,10 +328,11 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/scripts/main.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script src="../../_static/tabs.js"></script>
+    <script src="../../_static/translations.js"></script>
     <script src="../../_static/design-tabs.js"></script>
     </body>
 </html>

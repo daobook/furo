@@ -1,18 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh_CN">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Internals" href="../internals/" /><link rel="prev" title="Contributing" href="../" />
+<link rel="index" title="索引" href="../../genindex/" /><link rel="search" title="搜索" href="../../search/" /><link rel="next" title="Internals" href="../internals/" /><link rel="prev" title="Contributing" href="../" />
 
-    <meta name="generator" content="sphinx-4.2.0, furo 2021.10.09.dev1"/>
+    <meta name="generator" content="sphinx-4.3.0, furo 2021.11.16.dev1"/>
         <title>Workflow - Furo</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=0254c309f5cadf746f1a613e7677379ac9c8cdcd" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=916d6ed8f59335acffa15474ff504849343d4c76" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/design-style.d53ab927f7bad3eaa42da95908504b10.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=16fb25fabf47304eee183a5e9af80b1ba98259b1" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
     <link rel="stylesheet" type="text/css" href="../../_static/pied-piper-admonition.css" />
     
     
@@ -157,13 +157,13 @@
   <span class="sidebar-brand-text">Furo</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search/" role="search">
-  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input class="sidebar-search" placeholder=搜索 name="q" aria-label="搜索">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../quickstart/">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quickstart/">快速入门</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../customisation/">Customisation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../customisation/logo/">Adding a logo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../customisation/colors/">Changing colors</a></li>
@@ -189,7 +189,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../recommendations/">Recommendations</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<p class="caption" role="heading"><span class="caption-text">开发</span></p>
 <ul class="current">
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../">Contributing</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Workflow</a></li>
@@ -210,7 +210,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../stability/">Stability Policy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../changelog/">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../license/">License</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub Repository</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub 仓库</a></li>
 </ul>
 
 </div>
@@ -238,20 +238,20 @@
         </div>
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="workflow">
-<h1>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h1>
+<h1>Workflow<a class="headerlink" href="#workflow" title="永久链接至标题">¶</a></h1>
 <p>This page describes the tooling used during development of this project. It also serves as a reference for the various commands that you would use when working on this project.</p>
 <section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<h2>Overview<a class="headerlink" href="#overview" title="永久链接至标题">¶</a></h2>
 <p>This project uses the <a class="reference external" href="https://guides.github.com/introduction/flow/">GitHub Flow</a> for collaboration. The codebase contains Python code, <a class="reference external" href="https://jinja.palletsprojects.com">Jinja2</a>-based HTML pages, <a class="reference external" href="https://sass-lang.com">Sass</a> stylesheets and Javascript code.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://nox.readthedocs.io/en/stable/">nox</a> is used for automating development tasks.</p></li>
-<li><p><a class="reference external" href="https://gulpjs.com">Gulp</a>-based build pipeline is used to process the Sass and Javascript files.</p></li>
+<li><p><a class="reference external" href="https://webpack.js.org/">Webpack</a>-based build pipeline is used to process the Sass and Javascript files.</p></li>
 <li><p><a class="reference external" href="https://github.com/executablebooks/sphinx-autobuild">sphinx-autobuild</a> is used to provide live-reloading pages when working on the theme.</p></li>
 <li><p><a class="reference external" href="https://pre-commit.com/">pre-commit</a> is used for running the linters.</p></li>
 </ul>
 </section>
 <section id="initial-setup">
-<h2>Initial Setup<a class="headerlink" href="#initial-setup" title="Permalink to this headline">¶</a></h2>
+<h2>Initial Setup<a class="headerlink" href="#initial-setup" title="永久链接至标题">¶</a></h2>
 <p>To work on this project, you need to have git 2.17+, Python 3.6+ and NodeJS 12.</p>
 <ul>
 <li><p>Clone this project using git:</p>
@@ -270,23 +270,23 @@
 <p>You’re all set for working on this project.</p>
 </section>
 <section id="commands">
-<h2>Commands<a class="headerlink" href="#commands" title="Permalink to this headline">¶</a></h2>
+<h2>Commands<a class="headerlink" href="#commands" title="永久链接至标题">¶</a></h2>
 <section id="code-linting">
-<h3>Code Linting<a class="headerlink" href="#code-linting" title="Permalink to this headline">¶</a></h3>
+<h3>Code Linting<a class="headerlink" href="#code-linting" title="永久链接至标题">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nox</span> <span class="o">-</span><span class="n">s</span> <span class="n">lint</span>
 </pre></div>
 </div>
 <p>Run the linters, as configured with <a class="reference external" href="https://pre-commit.com/">pre-commit</a>.</p>
 </section>
 <section id="local-development-server">
-<h3>Local Development Server<a class="headerlink" href="#local-development-server" title="Permalink to this headline">¶</a></h3>
+<h3>Local Development Server<a class="headerlink" href="#local-development-server" title="永久链接至标题">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nox</span> <span class="o">-</span><span class="n">s</span> <span class="n">docs</span><span class="o">-</span><span class="n">live</span>
 </pre></div>
 </div>
 <p>Serve this project’s documentation locally, using <a class="reference external" href="https://github.com/executablebooks/sphinx-autobuild">sphinx-autobuild</a>. This will open the generated documentation page in your browser.</p>
 <p>The server also watches for changes made to the documentation (<code class="docutils literal notranslate"><span class="pre">docs/</span></code>) or theme (<code class="docutils literal notranslate"><span class="pre">src/</span></code>), which will trigger a rebuild. Once the build is completed, server will automagically reload any open pages using livereload.</p>
 <div class="admonition tip">
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">小技巧</p>
 <p>My workflow, when I’m working on this theme, is along the lines of:</p>
 <ul class="simple">
 <li><p>Run this command, and wait for the browser window to open.</p></li>
@@ -301,7 +301,7 @@
 </div>
 </section>
 <section id="documentation-generation">
-<h3>Documentation Generation<a class="headerlink" href="#documentation-generation" title="Permalink to this headline">¶</a></h3>
+<h3>Documentation Generation<a class="headerlink" href="#documentation-generation" title="永久链接至标题">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">nox</span> <span class="o">-</span><span class="n">s</span> <span class="n">docs</span>
 </pre></div>
 </div>
@@ -309,7 +309,7 @@
 </section>
 </section>
 <section id="release-process">
-<h2>Release process<a class="headerlink" href="#release-process" title="Permalink to this headline">¶</a></h2>
+<h2>Release process<a class="headerlink" href="#release-process" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
 <li><p>Update the changelog</p></li>
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">nox</span> <span class="pre">-s</span> <span class="pre">release</span></code></p></li>
@@ -317,17 +317,10 @@
 </ul>
 </section>
 <section id="installing-directly-from-github">
-<h2>Installing directly from GitHub<a class="headerlink" href="#installing-directly-from-github" title="Permalink to this headline">¶</a></h2>
+<h2>Installing directly from GitHub<a class="headerlink" href="#installing-directly-from-github" title="永久链接至标题">¶</a></h2>
 <p>There are times when you might want to install the in-development version of Furo (mostly for testing that a fix actually does fix things).</p>
-<p>Furo cannot be installed directly using pip with the Git repository directly. This is because the Git repository does not contained the compiled CSS/JS. The distributions on PyPI have the compiled assets (because they’re platform agnostic and plain text).</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="c1"># Clone the repository</span>
-git clone https://github.com/pradyunsg/furo.git
-<span class="nb">cd</span> furo
-<span class="c1"># Build the static assets</span>
-npm install
-./node_modules/.bin/gulp build
-<span class="c1"># Install with pip</span>
-pip install .
+<p>This can be done by directly telling pip to install from Furo from GitHub. You likely want to install from a zip archive, to avoid cloning the entire Git history:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>pip install https://github.com/pradyunsg/furo/archive/refs/heads/main.zip
 </pre></div>
 </div>
 </section>
@@ -366,7 +359,7 @@ pip install .
           <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
             | <a class="muted-link" href="../../_sources/contributing/workflow.md.txt"
                rel="nofollow">
-              Show Source
+              显示源代码
             </a>
         </div>
         
@@ -378,7 +371,7 @@ pip install .
       <div class="toc-sticky toc-scroll">
         <div class="toc-title-container">
           <span class="toc-title">
-            Contents
+            目录
           </span>
         </div>
         <div class="toc-tree-container">
@@ -410,10 +403,11 @@ pip install .
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/scripts/main.js"></script>
+    <script src="../../_static/scripts/furo.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script src="../../_static/tabs.js"></script>
+    <script src="../../_static/translations.js"></script>
     <script src="../../_static/design-tabs.js"></script>
     </body>
 </html>

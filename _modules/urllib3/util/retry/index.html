@@ -1,17 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zh_CN">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../../../genindex/" /><link rel="search" title="Search" href="../../../../search/" />
+    <meta name="color-scheme" content="light dark"><link rel="index" title="索引" href="../../../../genindex/" /><link rel="search" title="搜索" href="../../../../search/" />
 
-    <meta name="generator" content="sphinx-4.2.0, furo 2021.10.09.dev1"/>
+    <meta name="generator" content="sphinx-4.3.0, furo 2021.11.16.dev1"/>
         <title>urllib3.util.retry - Furo</title>
       <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/styles/furo.css?digest=0254c309f5cadf746f1a613e7677379ac9c8cdcd" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/styles/furo.css?digest=916d6ed8f59335acffa15474ff504849343d4c76" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/tabs.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/design-style.d53ab927f7bad3eaa42da95908504b10.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/styles/furo-extensions.css?digest=16fb25fabf47304eee183a5e9af80b1ba98259b1" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/styles/furo-extensions.css?digest=0af69da206d614734f649b27d4cdc2dd6c31f41d" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/pied-piper-admonition.css" />
     
     
@@ -156,13 +156,13 @@
   <span class="sidebar-brand-text">Furo</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../../../search/" role="search">
-  <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
+  <input class="sidebar-search" placeholder=搜索 name="q" aria-label="搜索">
   <input type="hidden" name="check_keywords" value="yes">
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../quickstart/">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../quickstart/">快速入门</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../../customisation/">Customisation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../../customisation/logo/">Adding a logo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../../customisation/colors/">Changing colors</a></li>
@@ -188,7 +188,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../recommendations/">Recommendations</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<p class="caption" role="heading"><span class="caption-text">开发</span></p>
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../../contributing/">Contributing</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../../contributing/workflow/">Workflow</a></li>
@@ -209,7 +209,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../../stability/">Stability Policy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../changelog/">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../license/">License</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub Repository</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/pradyunsg/furo">GitHub 仓库</a></li>
 </ul>
 
 </div>
@@ -236,7 +236,7 @@
           </label>
         </div>
         <article role="main">
-          <h1>Source code for urllib3.util.retry</h1><div class="highlight"><pre>
+          <h1>urllib3.util.retry 源代码</h1><div class="highlight"><pre>
 <span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">absolute_import</span>
 
 <span class="kn">import</span> <span class="nn">email</span>
@@ -309,7 +309,7 @@
         <span class="bp">cls</span><span class="o">.</span><span class="n">DEFAULT_REMOVE_HEADERS_ON_REDIRECT</span> <span class="o">=</span> <span class="n">value</span>
 
 
-<div class="viewcode-block" id="Retry"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry">[docs]</a><span class="nd">@six</span><span class="o">.</span><span class="n">add_metaclass</span><span class="p">(</span><span class="n">_RetryMeta</span><span class="p">)</span>
+<div class="viewcode-block" id="Retry"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry">[文档]</a><span class="nd">@six</span><span class="o">.</span><span class="n">add_metaclass</span><span class="p">(</span><span class="n">_RetryMeta</span><span class="p">)</span>
 <span class="k">class</span> <span class="nc">Retry</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">"""Retry configuration.</span>
 
@@ -558,7 +558,7 @@
         <span class="n">params</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kw</span><span class="p">)</span>
         <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="p">)(</span><span class="o">**</span><span class="n">params</span><span class="p">)</span>
 
-<div class="viewcode-block" id="Retry.from_int"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.from_int">[docs]</a>    <span class="nd">@classmethod</span>
+<div class="viewcode-block" id="Retry.from_int"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.from_int">[文档]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_int</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">retries</span><span class="p">,</span> <span class="n">redirect</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">"""Backwards-compatibility for the old retries format."""</span>
         <span class="k">if</span> <span class="n">retries</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -572,7 +572,7 @@
         <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">"Converted retries value: </span><span class="si">%r</span><span class="s2"> -&gt; </span><span class="si">%r</span><span class="s2">"</span><span class="p">,</span> <span class="n">retries</span><span class="p">,</span> <span class="n">new_retries</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">new_retries</span></div>
 
-<div class="viewcode-block" id="Retry.get_backoff_time"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.get_backoff_time">[docs]</a>    <span class="k">def</span> <span class="nf">get_backoff_time</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Retry.get_backoff_time"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.get_backoff_time">[文档]</a>    <span class="k">def</span> <span class="nf">get_backoff_time</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">"""Formula for computing the current backoff</span>
 
 <span class="sd">        :rtype: float</span>
@@ -612,7 +612,7 @@
 
         <span class="k">return</span> <span class="n">seconds</span>
 
-<div class="viewcode-block" id="Retry.get_retry_after"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.get_retry_after">[docs]</a>    <span class="k">def</span> <span class="nf">get_retry_after</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
+<div class="viewcode-block" id="Retry.get_retry_after"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.get_retry_after">[文档]</a>    <span class="k">def</span> <span class="nf">get_retry_after</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
         <span class="sd">"""Get the value of Retry-After in seconds."""</span>
 
         <span class="n">retry_after</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">getheader</span><span class="p">(</span><span class="s2">"Retry-After"</span><span class="p">)</span>
@@ -636,7 +636,7 @@
             <span class="k">return</span>
         <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">backoff</span><span class="p">)</span>
 
-<div class="viewcode-block" id="Retry.sleep"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.sleep">[docs]</a>    <span class="k">def</span> <span class="nf">sleep</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="Retry.sleep"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.sleep">[文档]</a>    <span class="k">def</span> <span class="nf">sleep</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">"""Sleep between retry attempts.</span>
 
 <span class="sd">        This method will respect a server's ``Retry-After`` response header</span>
@@ -686,7 +686,7 @@
             <span class="k">return</span> <span class="kc">False</span>
         <span class="k">return</span> <span class="kc">True</span>
 
-<div class="viewcode-block" id="Retry.is_retry"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.is_retry">[docs]</a>    <span class="k">def</span> <span class="nf">is_retry</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">status_code</span><span class="p">,</span> <span class="n">has_retry_after</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<div class="viewcode-block" id="Retry.is_retry"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.is_retry">[文档]</a>    <span class="k">def</span> <span class="nf">is_retry</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">status_code</span><span class="p">,</span> <span class="n">has_retry_after</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">"""Is this method/status code retryable? (Based on allowlists and control</span>
 <span class="sd">        variables such as the number of total retries to allow, whether to</span>
 <span class="sd">        respect the Retry-After header, whether this header is present, and</span>
@@ -706,7 +706,7 @@
             <span class="ow">and</span> <span class="p">(</span><span class="n">status_code</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">RETRY_AFTER_STATUS_CODES</span><span class="p">)</span>
         <span class="p">)</span></div>
 
-<div class="viewcode-block" id="Retry.is_exhausted"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.is_exhausted">[docs]</a>    <span class="k">def</span> <span class="nf">is_exhausted</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="Retry.is_exhausted"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.is_exhausted">[文档]</a>    <span class="k">def</span> <span class="nf">is_exhausted</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">"""Are we out of retries?"""</span>
         <span class="n">retry_counts</span> <span class="o">=</span> <span class="p">(</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">total</span><span class="p">,</span>
@@ -722,7 +722,7 @@
 
         <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="n">retry_counts</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span></div>
 
-<div class="viewcode-block" id="Retry.increment"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.increment">[docs]</a>    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span>
+<div class="viewcode-block" id="Retry.increment"><a class="viewcode-back" href="../../../../reference/api/#urllib3.util.Retry.increment">[文档]</a>    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span>
         <span class="bp">self</span><span class="p">,</span>
         <span class="n">method</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
         <span class="n">url</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
@@ -867,10 +867,11 @@
     <script src="../../../../_static/jquery.js"></script>
     <script src="../../../../_static/underscore.js"></script>
     <script src="../../../../_static/doctools.js"></script>
-    <script src="../../../../_static/scripts/main.js"></script>
+    <script src="../../../../_static/scripts/furo.js"></script>
     <script src="../../../../_static/clipboard.min.js"></script>
     <script src="../../../../_static/copybutton.js"></script>
     <script src="../../../../_static/tabs.js"></script>
+    <script src="../../../../_static/translations.js"></script>
     <script src="../../../../_static/design-tabs.js"></script>
     </body>
 </html>
