@@ -72,11 +72,7 @@ def get_pygments_style_colors(
     if not background:
         background = fallbacks["background"]
 
-    if not foreground:
-        foreground = fallbacks["foreground"]
-    else:
-        foreground = f"#{foreground}"
-
+    foreground = fallbacks["foreground"] if not foreground else f"#{foreground}"
     return {"background": background, "foreground": foreground}
 
 
@@ -113,13 +109,8 @@ def _compute_navigation_tree(context: Dict[str, Any]) -> str:
 def _compute_hide_toc(context: Dict[str, Any]) -> bool:
     # Should the table of contents be hidden?
     file_meta = context.get("meta", None) or {}
-    if "hide-toc" in file_meta:
+    if "hide-toc" in file_meta or "toc" not in context or not context["toc"]:
         return True
-    elif "toc" not in context:
-        return True
-    elif not context["toc"]:
-        return True
-
     return has_not_enough_items_to_show_toc(context["toc"])
 
 
@@ -134,7 +125,7 @@ def _asset_hash(path: str) -> str:
 
 def _add_asset_hashes(static: List[str], add_digest_to: List[str]) -> None:
     for asset in add_digest_to:
-        index = static.index("_static/" + asset)
+        index = static.index(f'_static/{asset}')
         static[index].filename = _asset_hash(asset)  # type: ignore
 
 
