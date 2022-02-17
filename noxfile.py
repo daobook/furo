@@ -21,14 +21,8 @@ def _determine_versions(current_version, date):
     if current_version.startswith(today_version):
         # There was a release earlier today. Let's tack on another version
         # number segment onto this to make it unique.
-        return (
-            today_version + f".{dev_num}",
-            today_version + f".dev{dev_num+1}",
-        )
-    return (
-        today_version,
-        today_version + ".dev1",
-    )
+        return f'{today_version}.{dev_num}', f'{today_version}.dev{dev_num + 1}'
+    return today_version, f'{today_version}.dev1'
 
 
 # fmt: off

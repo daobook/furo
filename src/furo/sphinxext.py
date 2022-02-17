@@ -35,12 +35,10 @@ def _split_by_language(block_text: str) -> Tuple[str, str]:
 
 
 def _md_demo(block: str) -> StringList:
-    lines = []
     if not block.strip("\n"):
         return StringList()
 
-    lines.append("````````{tab} Markdown (MyST)")
-    lines.append("```````md")
+    lines = ['````````{tab} Markdown (MyST)', '```````md']
     lines.extend(block.splitlines())
     lines.append("```````")
     lines.extend(block.splitlines())
@@ -50,20 +48,20 @@ def _md_demo(block: str) -> StringList:
 
 
 def _rst_demo(block: str) -> StringList:
-    lines = []
     if not block.strip():
         return StringList()
 
-    lines.append("````````{tab} reStructuredText")
-    lines.append("```````{eval-rst}")
-    lines.append(".. code-block:: rest")
-    lines.append("")
+    lines = [
+        '````````{tab} reStructuredText',
+        '```````{eval-rst}',
+        '.. code-block:: rest',
+        '',
+    ]
+
     lines.extend(indent(block, "    ").splitlines())
     lines.append("")
     lines.extend(block.splitlines())
-    lines.append("```````")
-    lines.append("````````")
-
+    lines.extend(("```````", "````````"))
     return StringList(lines)
 
 
